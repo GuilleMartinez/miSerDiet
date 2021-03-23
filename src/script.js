@@ -1,6 +1,6 @@
 const productsHTML = document.querySelector("#product-list");
 const form = document.querySelector("form");
-
+const number = '0xB14EE0B1';
 
 const products = createList(DATABASE);
 
@@ -13,7 +13,6 @@ function createList(database){
 
 
 document.body.onclick = buttonEvent;
-form.onsubmit = setPayment;
 
 renderProducts(DATABASE);
 
@@ -27,6 +26,10 @@ function buttonEvent (event) {
 
  		case "delete-item-btn":
  			  deleteProduct(target.value);
+ 			  break;
+
+ 		case "pay-btn":
+ 			  setPayment();
  			  break;
  	}
 }
@@ -54,12 +57,11 @@ function deleteProduct (productID) {
 
 
 
-function setPayment(event) {
-	event.preventDefault();
-	const elements = shopping.cart.map( item => `${item.title} x ${item.count} = $${item.price}`).join("\n");
-	const message =  `Hola! Me gustaria hacer el siguiente pedido:\n${elements}\n*Total a pagar: $${shopping.total}*`;
-	const phone = document.querySelector("#telephone").value;
-
-	const url = encodeURI(`https://api.whatsapp.com/send?phone=+54${phone}&text=${message}`);
-	window.open(url, "_blank");
+function setPayment() {
+	if ( shopping.hasItems() ) {
+			const elements = shopping.cart.map( item => `${item.title} x ${item.count} = $${item.price}`).join("\n");
+			const message =  `Hola! Me gustaria hacer el siguiente pedido:\n${elements}\n*Total a pagar: $${shopping.total}*`;
+			const url = encodeURI(`https://api.whatsapp.com/send?phone=+54${parseInt(number)}&text=${message}`);
+			window.open(url, "_blank");
+	}
 }

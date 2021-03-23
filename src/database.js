@@ -5,7 +5,7 @@ const DATABASE = [
 		"title": "Product 1",
 		"price": 120,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	},
 
 	{
@@ -13,7 +13,7 @@ const DATABASE = [
 		"title": "Product 2",
 		"price": 140,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	},
 
 	{
@@ -21,7 +21,7 @@ const DATABASE = [
 		"title": "Product 3",
 		"price": 160,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	},
 
 		{
@@ -29,7 +29,7 @@ const DATABASE = [
 		"title": "Product 4",
 		"price": 160,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	},
 
 
@@ -38,7 +38,7 @@ const DATABASE = [
 		"title": "Product 5",
 		"price": 160,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	},
 
 		{
@@ -46,7 +46,7 @@ const DATABASE = [
 		"title": "Product 6",
 		"price": 160,
 		"description": "Some random product",
-		"img": ""
+		"img": "https://via.placeholder.com/150.png/09f/fff"
 	}
 
 ]

@@ -15,10 +15,15 @@
 		#product-list {
 			padding: 20px;
 			display: grid;
-			grid-template-columns: repeat( auto-fit, minmax(300px, 1fr)  );
-			grid-gap: 30px;
+			grid-template-columns: repeat( auto-fit, minmax(300px, 0.5fr)  );
+			grid-gap: 40px;
 			justify-items: center;
 			list-style: none;
+		}
+
+		section{
+			margin-bottom: 60px;
+			text-align: center;
 		}
 
 
@@ -26,7 +31,7 @@
 			display: flex;
 			flex-flow: column nowrap;
 			justify-content: space-between;
-			height: 90px;
+			height: 200px;
 		}
 
 		button {
@@ -64,27 +69,17 @@
 			height: 45px;
 		}
 
-		input {
-			height: 35px;
-		}
-
-		form {
-			width: 600px;
-			margin: 0 auto;
-		}
-
-
 	</style>
 </head>
 <body>
 
-	<section>
+	<section id="products">
 		<h2 class="title">Products</h2>
 		<ul id="product-list" role="list"></ul>
 	</section>
 
 	
-	<section>
+	<section id="cart">
 		<h2 class="title">Cart</h2>
 		<table>
 		<thead>
@@ -99,19 +94,11 @@
 		<tbody id="shopping-cart"></tbody>
 	</table>
 
-   <div id="total">Total: $0</div>
-	</section>
+	<div id="total">Total: $0</div>
 
-	<form method="POST" action="#">
+   	<button class="pay-btn">BUY STUFF!</button>
 
-		<label>
-			<span class="label-desc">Telephone: +54</span>
-			<input required id="telephone" type="tel" name="telephone">
-		</label>
-		
-		<button type="submit" class="pay-btn">BUY STUFF!</button>
-	</form>
-	
+ </section>
 
 	<script type="text/javascript" src="./src/cart.js"></script>
 	<script type="text/javascript" src="./src/database.js"></script>

@@ -106,4 +106,8 @@ class Cart {
 		this._htmlTotal.textContent = `Total: $${this.total}`;
 	}
 
+	hasItems() {
+		return this.cart.length;
+	}
+
 }
