@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-commerce</title>
+
+
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		#product-list {
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat( auto-fit, minmax(300px, 1fr)  );
+			grid-gap: 30px;
+			justify-items: center;
+			list-style: none;
+		}
+
+
+		.product {
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-between;
+			height: 90px;
+		}
+
+		button {
+			width: 50px;
+		}
+
+		table {
+			max-width: 450px;
+			border-collapse: collapse;
+			text-align: center;
+			table-layout: fixed;
+			margin-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#total {
+				margin-bottom: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 450px;
+				text-align: center;
+		}
+
+		.title {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.pay-btn {
+			background-color: green;
+			color: white;
+			border: none;
+			width: 120px;
+			height: 45px;
+		}
+
+		input {
+			height: 35px;
+		}
+
+		form {
+			width: 600px;
+			margin: 0 auto;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<section>
+		<h2 class="title">Products</h2>
+		<ul id="product-list" role="list"></ul>
+	</section>
+
+	
+	<section>
+		<h2 class="title">Cart</h2>
+		<table>
+		<thead>
+			<tr>
+				<th scope="col">Product</th>
+				<th scope="col">Count</th>
+				<th scope="col">Subtotal</th>
+				<th scope="col"></th>
+			</tr>
+		</thead>
+
+		<tbody id="shopping-cart"></tbody>
+	</table>
+
+   <div id="total">Total: $0</div>
+	</section>
+
+	<form method="POST" action="#">
+
+		<label>
+			<span class="label-desc">Telephone: +54</span>
+			<input required id="telephone" type="tel" name="telephone">
+		</label>
+		
+		<button type="submit" class="pay-btn">BUY STUFF!</button>
+	</form>
+	
+
+	<script type="text/javascript" src="./src/cart.js"></script>
+	<script type="text/javascript" src="./src/database.js"></script>
+	<script type="text/javascript" src="./src/products.js"></script>
+	<script type="text/javascript" src="./src/script.js"></script>
+</body>
+</html>
