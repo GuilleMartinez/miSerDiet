@@ -1,0 +1,3196 @@
+﻿{
+    "productos": [
+        {
+            "id": "P0001",
+            "name": "ACEITE ARECO EXTRA VIRGEN ENVASE DE VIDRIO",
+            "category_id": "C00002",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0002",
+            "name": "ACEITE DE COCO CHIA GRAAL NEUTRO",
+            "category_id": "C00001",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0003",
+            "name": "ACEITE DE COCO CHIA GRAAL NEUTRO EN SPRAY",
+            "category_id": "C00001",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0004",
+            "name": "ACEITE DE COCO CHIA GRAAL VIRGEN",
+            "category_id": "C00001",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0005",
+            "name": "ACEITE DE COCO MEDIA NATURAL NEUTRO",
+            "category_id": "C00001",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0006",
+            "name": "ACEITE DE HIGADO DE BACALAO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0007",
+            "name": "ACEITE DE OLIVA EXTRA VIRGEN LA TRANQUILINA EN SPRAY",
+            "category_id": "C00002",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0008",
+            "name": "ACEITE PREMIUM REINO DE LEON DE OLIVA Y GIRASOL INTENSO",
+            "category_id": "C00002",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0009",
+            "name": "ACETO BALSÁMICO OLIVARES DEL SOL",
+            "category_id": "C00003",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0010",
+            "name": "AJI MOLIDO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0011",
+            "name": "AJO GRANULADO SHIO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0012",
+            "name": "AJO POLVO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0013",
+            "name": "ALBUMINA DE HUEVO EN POLVO",
+            "category_id": "C00004",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0014",
+            "name": "ALFAJOR DE ARROZ TASTY CRUNCH SABOR MOUSSE DE DULCE DE LECHE",
+            "category_id": "C00005",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0015",
+            "name": "ALFAJOR DE ARROZ TASTY CRUNCH SABOR MOUSSE DE LIMÓN ",
+            "category_id": "C00005",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0016",
+            "name": "ALFAJOR MARCA CERAL RELLENO DE DULCE DE LECHE LIGHT BLANCO",
+            "category_id": "C00005",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0017",
+            "name": "ALFAJOR MARCA CERAL RELLENO DE DULCE DE LECHE LIGHT NEGRO",
+            "category_id": "C00005",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0018",
+            "name": "ALFAJOR RELLENO DE DULCE DE LECHE VEGANO CERRO AZUL - SIN AZUCAR",
+            "category_id": "C00005",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0019",
+            "name": "ALFAJOR RELLENO DE MOUSSE DE CHOCO VEGANO CERRO AZUL",
+            "category_id": "C00005",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0020",
+            "name": "ALFAJOR RELLENO DE MOUSSE DE FRESA VEGANO CERRO AZUL - SIN AZUCAR",
+            "category_id": "C00005",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0021",
+            "name": "ALFAJOR RELLENO DE MOUSSE DE LIMON VEGANO CERRO AZUL",
+            "category_id": "C00005",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0022",
+            "name": "ALMENDRAS CON CHOCOLATE DE LECHE",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0023",
+            "name": "ALMENDRAS NON PAREIL",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0024",
+            "name": "ALMENDRAS TOSTADAS Y SALADAS",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0025",
+            "name": "ALMOHADITAS RELLENAS AVELLANA",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0026",
+            "name": "ALMOHADITAS RELLENAS DE CHOCOLATE",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0027",
+            "name": "ALMOHADITAS RELLENAS DOS SALVADOS ",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0028",
+            "name": "ALMOHADITAS RELLENAS FRUTILLA",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0029",
+            "name": "ALMOHADITAS RELLENAS LIMON ",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0030",
+            "name": "ALMOHADITAS SNUKS RELLENAS AVELLANA",
+            "category_id": "C00012",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0031",
+            "name": "ALMOHADITAS SNUKS RELLENAS CHOCOLATE",
+            "category_id": "C00012",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0032",
+            "name": "ALMOHADITAS SNUKS RELLENAS FRUTILLA",
+            "category_id": "C00012",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0033",
+            "name": "ARÁNDANO GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0034",
+            "name": "ARÁNDANOS CON CHOCOLATE ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0035",
+            "name": "ARANDANOS DESHIDRATADOS  ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0036",
+            "name": "ARITOS DE MIEL",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0037",
+            "name": "ARITOS FRUTADOS",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0038",
+            "name": "ARROZ BASMATI",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0039",
+            "name": "ARROZ INTEGRAL",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0040",
+            "name": "ARROZ KOSHIHIKARI",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0041",
+            "name": "ARROZ YAMANI INTEGRAL",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0042",
+            "name": "AVELLANAS CON CHOCOLATE ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0043",
+            "name": "AVELLANAS MEDIANAS 11/13",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0044",
+            "name": "AVELLANAS PREMIUM",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0045",
+            "name": "AVENA GRUESA",
+            "category_id": "C00006",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0046",
+            "name": "AVENA INSTANTÁNEA",
+            "category_id": "C00006",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0047",
+            "name": "AVENA TRADICIONAL",
+            "category_id": "C00006",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0048",
+            "name": "AZUCAR DE COCO",
+            "category_id": "C00007",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0049",
+            "name": "AZÚCAR IMPALPABLE ",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0050",
+            "name": "AZUCAR MASCABO",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0051",
+            "name": "AZUCAR ORGÁNICA BEEPURE",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0052",
+            "name": "AZUCAR ORGANICA DICOMERE",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0053",
+            "name": "BALON DE CEREAL CON CHOCOLATE",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0054",
+            "name": "BANANITAS CHIPS ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0055",
+            "name": "BAÑO REPOSTERO CHOCOLATE BLANCO",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0056",
+            "name": "BAÑO REPOSTERO CHOCOLATE CON LECHE",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0057",
+            "name": "BAÑO REPOSTERO CHOCOLATE SEMI AMARGO",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0058",
+            "name": "BARRA DE CHOCOLATE COPANI 100% CACAO",
+            "category_id": "C00013",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0059",
+            "name": "BARRA DE CHOCOLATE COPANI 70% CACAO - CON STEVIA ",
+            "category_id": "C00013",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0060",
+            "name": "BARRA DE CHOCOLATE COPANI 80% CACAO CON ALMENDRAS",
+            "category_id": "C00013",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0061",
+            "name": "BARRA DE CHOCOLATE COPANI CON LECHE DE COCO ENDULZADO - CON STEVIA",
+            "category_id": "C00013",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0062",
+            "name": "BARRITAS ÍNTEGRA  ARÁNDANOS Y SEMILLA",
+            "category_id": "C00008",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0063",
+            "name": "BARRITAS ÍNTEGRA  CHOCOLATE Y SEMILLA",
+            "category_id": "C00008",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0064",
+            "name": "BARRITAS ÍNTEGRA ALMENDRA Y NUEZ",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0065",
+            "name": "BARRITAS ÍNTEGRA BANANA Y NUEZ",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0066",
+            "name": "BARRITAS ÍNTEGRA PISTACHO Y ARANDANOS",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0067",
+            "name": "BARRITAS ÍNTEGRA PURO CACAO",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0068",
+            "name": "BARRITAS LADDUBAR BROWNIE - APTA VEGANOS",
+            "category_id": "C00008",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0069",
+            "name": "BARRITAS LADDUBAR COCO - APTA VEGANOS",
+            "category_id": "C00008",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0070",
+            "name": "BARRITAS LADDUBAR COCO CHOCO - APTA VEGANOS",
+            "category_id": "C00008",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0071",
+            "name": "BASTONES DE SALVADO",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0072",
+            "name": "BOLITAS DE CHOCOLATE",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0073",
+            "name": "BUDIN INTEGRAL DE BANANA Y CHIPS DE CHOCOLATE",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0074",
+            "name": "BUDIN MARMOLADO MARCA CERAL - SIN AZUCAR",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0075",
+            "name": "CACAO AMARGO",
+            "category_id": "C00009",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0076",
+            "name": "CACAO AMARGO ALCALINO BARRY CALL BRASILERO ",
+            "category_id": "C00009",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0077",
+            "name": "CACAO DULCE ",
+            "category_id": "C00009",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0078",
+            "name": "CAFÉ EN GRANOS CON CHOCOLATE ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0079",
+            "name": "CAFÉ VERDE GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0080",
+            "name": "CAJU NATURAL",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0081",
+            "name": "CAJU TOSTADO ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0082",
+            "name": "CAJU TOSTADO Y SALADO ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0083",
+            "name": "CANELA EN POLVO 100% PURA",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0084",
+            "name": "CARTILAGO DE TIBURON 1000",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0085",
+            "name": "CEBOLLA EN ESCAMAS SHIO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0086",
+            "name": "CEPILLO DE DIENTE MERAKI DE BAMBÚ CERDA DURA",
+            "category_id": "C00010",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0087",
+            "name": "CEPILLO DE DIENTE MERAKI DE BAMBÚ CERDA MEDIA",
+            "category_id": "C00010",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0088",
+            "name": "CEPILLO DE DIENTE MERAKI DE BAMBÚ CERDA PARA NIÑOS",
+            "category_id": "C00010",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0089",
+            "name": "CEPILLO DE DIENTE MERAKI DE BAMBÚ CERDA SUAVE",
+            "category_id": "C00010",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0090",
+            "name": "CHIMICHURRI SHIO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0091",
+            "name": "CHIPS BATATAS Y PAPAS ALWA",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0092",
+            "name": "CHIPS DE BATATAS",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0093",
+            "name": "CHIPS DE BATATITAS",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0094",
+            "name": "CHIPS DE PAPAS",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0095",
+            "name": "CHIPS DE PAPAS CON PIMIENTA",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0096",
+            "name": "CHIPS DE REMOLACHITAS",
+            "category_id": "C00044",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0097",
+            "name": "CIRUELAS DÁGEN ROSALI SIN CAROZO",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0098",
+            "name": "CIRUELAS PRESIDENTE MEDIANAS",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0099",
+            "name": "COCO EN ESCAMAS",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0100",
+            "name": "COCO RALLADO",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0101",
+            "name": "COLAGENO GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0102",
+            "name": "COLAGENO HIDROLIZADO SABOR FRUTOS ROJOS",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0103",
+            "name": "CONTROLLER (BLOQUEADOR CARBOHIDRATO) FRASCO (SIMIL SATIAL)",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0104",
+            "name": "CONTROLLER (BLOQUEADOR CARBOHIDRATO) POLVO FRACO (SIMIL SATIAL)",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0105",
+            "name": "COPOS DE MAIZ AZUCARADOS ",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0106",
+            "name": "COPOS DE MAIZ NATURAL - SIN AZUCAR",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0107",
+            "name": "CRAKINES GALLETITAS DE ARROZ ",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0108",
+            "name": "CURCUMA DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0109",
+            "name": "CURRY SHIO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0110",
+            "name": "DATILES ECONOMICOS IRAN",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0111",
+            "name": "DATILES TIERNIZADOS ARGELIA",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0112",
+            "name": "DELICEL GALLETITAS CHOCOLATE",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0113",
+            "name": "DELICEL GALLETITAS COCO",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0114",
+            "name": "DELICEL GALLETITAS LIMON",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0115",
+            "name": "DELICEL GALLETITAS NARANJA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0116",
+            "name": "DELICEL GALLETITAS PEPAS MEMBRILLO",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0117",
+            "name": "DELICEL GALLETITAS VAINILLA&CHIPS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0118",
+            "name": "DIPS DE ARROZ HORNEADOS MOLINOS ALA",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0119",
+            "name": "DULCE DE LECHE BEEPURE - SIN AZUCAR",
+            "category_id": "C00015",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0120",
+            "name": "DULCE DE LECHE BEEPURE CLASICO",
+            "category_id": "C00015",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0121",
+            "name": "DULCE DE LECHE COCO VEGAN DOÑA MAGDALENA",
+            "category_id": "C00015",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0122",
+            "name": "DULCE DE LECHE DONA MAGDALENA SPLENDA - SIN AZUCAR",
+            "category_id": "C00015",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0123",
+            "name": "DULCE DE LECHE DONA MAGDALENA STEVIA - SIN AZUCAR ",
+            "category_id": "C00015",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0124",
+            "name": "ERITRITOL 100% PURO DOYPACK",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0125",
+            "name": "ESENCIA DE VAINILLA COVENTRY",
+            "category_id": "C00016",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0126",
+            "name": "EXTRACTO DE VAINILLA EL CASTILLO",
+            "category_id": "C00016",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0127",
+            "name": "FÉCULA DE MAIZ",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0128",
+            "name": "FÉCULA DE MANDIOCA",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0129",
+            "name": "FIDEOS SOYARROZ ESPINACA",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0130",
+            "name": "FIDEOS SOYARROZ FINO",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0131",
+            "name": "FIDEOS SOYARROZ INTEGRAL",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0132",
+            "name": "FIDEOS SOYARROZ MAIZ",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0133",
+            "name": "FIDEOS SOYARROZ MORRON",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0134",
+            "name": "FIDEOS SOYARROZ TRADICIONAL",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0135",
+            "name": "GALLETAS DE ARROZ BAÑADAS CHOCOLATE BLANCO",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0136",
+            "name": "GALLETAS DE ARROZ BAÑADAS CHOCOLATE NEGRO",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0137",
+            "name": "GALLETAS DE ARROZ BAÑADAS DULCE DE LECHE",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0138",
+            "name": "GALLETITAS BEEPURE INTEGRALES ALMENDRA Y NARANJA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0139",
+            "name": "GALLETITAS BEEPURE INTEGRALES CHOCOBLUE",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0140",
+            "name": "GALLETITAS BEEPURE INTEGRALES CHOCOBOMB",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0141",
+            "name": "GALLETITAS BEEPURE INTEGRALES GINGER COOKIE",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0142",
+            "name": "GALLETITAS CERAL ENDULZADAS ALGARROBA - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0143",
+            "name": "GALLETITAS CERAL ENDULZADAS COCO - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0144",
+            "name": "GALLETITAS CERAL ENDULZADAS LIMON - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0145",
+            "name": "GALLETITAS CERAL ENDULZADAS NARANJA - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0146",
+            "name": "GALLETITAS CERAL ENDULZADAS TEISTY - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0147",
+            "name": "GALLETITAS CERAL ENDULZADAS VAINILLA Y MIEL - CON STEVIA ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0148",
+            "name": "GALLETITAS ÍNTEGRA ALMENDRA Y MIEL",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0149",
+            "name": "GALLETITAS ÍNTEGRA CHOCOLATE Y AVELLANA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0150",
+            "name": "GALLETITAS ÍNTEGRA LIMON Y AMAPOLA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0151",
+            "name": "GALLETITAS INTEGRALES MARCA CERAL COCO - APTA VEGANOS",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0152",
+            "name": "GALLETITAS INTEGRALES MARCA CERAL LIMON - APTA VEGANOS",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0153",
+            "name": "GALLETITAS INTEGRALES MARCA CERAL NARANAJA - APTA VEGANOS",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0154",
+            "name": "GALLETITAS INTEGRALIA ANILLOS AVENA Y COCO",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0155",
+            "name": "GALLETITAS INTEGRALIA ANILLOS AVENA Y LIMON",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0156",
+            "name": "GALLETITAS INTEGRALIA ANILLOS CACAO Y NARNAJA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0157",
+            "name": "GALLETITAS INTEGRALIA ANILLOS SALVADO Y LIMON",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0158",
+            "name": "GALLETITAS INTEGRALIA DIABEST CHOCO Y AVENA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0159",
+            "name": "GALLETITAS INTEGRALIA DIABEST COCO Y AVENA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0160",
+            "name": "GALLETITAS INTEGRALIA DIABEST LIMON Y AVENA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0161",
+            "name": "GALLETITAS INTEGRALIA PEPAS Y SCONS",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0162",
+            "name": "GALLETITAS ZAFRAN ALGARROBA PASAS Y GIRASOL",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0163",
+            "name": "GALLETITAS ZAFRAN AVENA COCO Y LINO",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0164",
+            "name": "GALLETITAS ZAFRAN AVENA PASAS Y CHIA",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0165",
+            "name": "GALLETITAS ZAFRAN COCO MANI Y CAFÉ",
+            "category_id": "C00022",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0166",
+            "name": "GARBANZOS",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0167",
+            "name": "GARBANZOS TOSTADOS FITBEANS JAMON AHUMADO",
+            "category_id": "C00044",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0168",
+            "name": "GARBANZOS TOSTADOS FITBEANS QUESO",
+            "category_id": "C00044",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0169",
+            "name": "GARBANZOS TOSTADOS FITBEANS SAL MARINA",
+            "category_id": "C00044",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0170",
+            "name": "GINKGO BILBOA + MAGNESIO GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0171",
+            "name": "GINSENG + MAGNESIO GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0172",
+            "name": "GOMA XÁNTICA",
+            "category_id": "C00024",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0173",
+            "name": "GOTITAS (CHIPS) DE CHOCO BLANCO ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0174",
+            "name": "GOTITAS (CHIPS) DE CHOCO NEGRO ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0175",
+            "name": "GRANOLA ARCHIMBOLDO CROCANTE CON SEMILLAS",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0176",
+            "name": "GRANOLA ARCHIMBOLDO ENERGETICA",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0177",
+            "name": "GRANOLA ARCHIMBOLDO FRUTOS SELECCIONADOS",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0178",
+            "name": "GRANOLA ARCHIMBOLDO NATURAL",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0179",
+            "name": "GRANOLA ARCHIMBOLDO NATURALMENTE CROCANTE",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0180",
+            "name": "GRANOLA ARCHIMBOLDO TROPICAL",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0181",
+            "name": "GRANOLA ÍNTEGRA (AVENA, ALMENDRAS Y MIEL / CHOCOLATE)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0182",
+            "name": "GRANOLA KOS BERRIES ( AVENA NATURAL- ARANDANOS- PASAS- ALMENDRAS- COPOS DE MAIZ- ENDULZANTE)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0183",
+            "name": "GRANOLA KOS ENERGY (ALMENDRAS- MIEL- PASAS- MANI -AVENA TOSTADA)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0184",
+            "name": "GRANOLA KOS LIVE (MANZANA- GIRASOL- ENDULZANTE NATURAL - COPOS DE MAIZ- AVENA TOSTADA)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0185",
+            "name": "GRANOLA KOS TRADICIONAL (AVENA TOSTADA -MANI-QUINOA INFLADA-COPOS MAIZ-GIRASOL-ALMENDRA)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0186",
+            "name": "GRANOLA KOS TROPICAL (BANANA CHIPS- AVENA TOSTADA -PASAS- MANZANA- ALMENDRAS Y POMELO)",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0187",
+            "name": "GRANOLA PREMIUM",
+            "category_id": "C00025",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0188",
+            "name": "HARINA DE ALGARROBA DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0189",
+            "name": "HARINA DE ALGARROBA DICOMERE - SIN TAC",
+            "category_id": "C00027",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0190",
+            "name": "HARINA DE ALMENDRAS",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0191",
+            "name": "HARINA DE ALMENDRAS DICOMERE",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0192",
+            "name": "HARINA DE ARROZ",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0193",
+            "name": "HARINA DE ARROZ INTEGRAL DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0194",
+            "name": "HARINA DE CAJU DICOMERE",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0195",
+            "name": "HARINA DE CENTENO EXTRAFINA DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0196",
+            "name": "HARINA DE COCO",
+            "category_id": "C00027",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0197",
+            "name": "HARINA DE COCO DICOMERE",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0198",
+            "name": "HARINA DE GARBANZO DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0199",
+            "name": "HARINA DE QUINOA",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0200",
+            "name": "HARINA DE TRIGO INTEGRAL DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0201",
+            "name": "HARINA INTEGRAL FINA A GRANEL",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0202",
+            "name": "HARINA INTEGRAL ORGANICA  DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0203",
+            "name": "HARINA PARA AREPAS EL COSACO",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0204",
+            "name": "HUMO SÓLIDO SHIO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0205",
+            "name": "JENGIBRE EN POLVO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0206",
+            "name": "JUGO PURA FRUTA 100% EXPRIMIDO DE MANZANA ROJA",
+            "category_id": "C00028",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0207",
+            "name": "JUGO PURA FRUTA 100% EXPRIMIDO DE MANZANA VERDE",
+            "category_id": "C00028",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0208",
+            "name": "JUGO PURA FRUTA 100% EXPRIMIDO NARANJA",
+            "category_id": "C00028",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0209",
+            "name": "KONY STEVIA",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0210",
+            "name": "KONY STEVIA EN POLVO",
+            "category_id": "C00007",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0211",
+            "name": "LECHE DE ALMENDRAS CON CHOCOLATE TRATENFU",
+            "category_id": "C00029",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0212",
+            "name": "LECHE DE ALMENDRAS CON COCO TRATENFU",
+            "category_id": "C00029",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0213",
+            "name": "LECHE DE ALMENDRAS CON VAINILLA TRATENFU",
+            "category_id": "C00029",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0214",
+            "name": "LECHE DE ALMENDRAS PAMPA VIDA - SIN AZUCAR ",
+            "category_id": "C00029",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0215",
+            "name": "LECHE DE ALMENDRAS TRATENFU ORIGINAL",
+            "category_id": "C00029",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0216",
+            "name": "LECHE DE COCO DALE COCO",
+            "category_id": "C00029",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0217",
+            "name": "LECHE DE COCO EN POLVO DOYPACK DICOMERE",
+            "category_id": "C00029",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0218",
+            "name": "LEGUME HIGH PROTEIN",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0219",
+            "name": "LEGUME PASTA ARVEJA",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0220",
+            "name": "LEGUME PASTA GARBANZO",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0221",
+            "name": "LEGUME PASTA LENTEJA",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0222",
+            "name": "LEGUME PASTA POROTO NEGRO",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0223",
+            "name": "LEGUME PASTA POROTO ROJO",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0224",
+            "name": "LENTEJA ROJA TURCA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0225",
+            "name": "LENTEJAS",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0226",
+            "name": "LENTEJAS CON CHOCOLATE",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0227",
+            "name": "LENTEJON",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0228",
+            "name": "LEVADURA LEVEX (2 SOBRES DE 10 GRS C/U)",
+            "category_id": "C00030",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0229",
+            "name": "LEVADURA VIRGEN NUTRILEVA NATURAL",
+            "category_id": "C00030",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0230",
+            "name": "LEVADURA VIRGEN NUTRILEVA SABOR MANZANA",
+            "category_id": "C00030",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0231",
+            "name": "LEVADURA VIRGEN NUTRILEVA SABOR QUESO",
+            "category_id": "C00030",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0232",
+            "name": "MACA KALLPA",
+            "category_id": "C00031",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0233",
+            "name": "MAGNESIO 400 GOLDFISH EN COMPRIMIDOS",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0234",
+            "name": "MAIZ BLANCO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0235",
+            "name": "MAIZ FRITO TOSTADO SABOR: BARBACOA/ MOSTAZA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0236",
+            "name": "MAIZ FRITO TOSTADO SABOR: MIEL/ QUESO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0237",
+            "name": "MAIZ FRITO TOSTADO TRADICIONAL",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0238",
+            "name": "MAIZ PISINGALLO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0239",
+            "name": "MANI CON CHOCOLATE ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0240",
+            "name": "MANI TOSTADO CON SAL ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0241",
+            "name": "MANI TOSTADO PELADO SIN SAL ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0242",
+            "name": "MANTECA CLARIFICADA GHEE BEEPURE",
+            "category_id": "C00032",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0243",
+            "name": "MANTECA CLARIFICADA GHEE DOÑA MAGDALENA",
+            "category_id": "C00032",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0244",
+            "name": "MANTEQUILLA DE MANI DULCE DE LECHE FIT FRUITS",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0245",
+            "name": "MANTEQUILLA DE MANI FIT FRUITS - SIN AZUCAR",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0246",
+            "name": "MANTEQUILLA DE MANI LE-FIT - CON STEVIA",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0247",
+            "name": "MANTEQUILLA DE MANI LE-FIT CON CHOCOLATE",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0248",
+            "name": "MANTEQUILLA DE MANI LE-FIT CON COCO",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0249",
+            "name": "MANTEQUILLA DE MANI LE-FIT CON COOKIES",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0250",
+            "name": "MANTEQUILLA DE MANI LE-FIT CON VAINILLA",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0251",
+            "name": "MANTEQUILLA DE MANI LE-FIT CREAM",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0252",
+            "name": "MANTEQUILLA DE MANI LE-FIT CRUNCHY",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0253",
+            "name": "MANTEQUILLA DE MANI LE-FIT NATURAL",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0254",
+            "name": "MANTEQUILLA DE MANI NINA'S - SIN AZUCAR",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0255",
+            "name": "MANTEQUILLA DE MANI ODDIS",
+            "category_id": "C00033",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0256",
+            "name": "MEDALLÓN DE DURAZNO MEDIANO PREMIUM ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0257",
+            "name": "MERMELADA BEEPURE ARANDANOS - SIN AZUCAR ",
+            "category_id": "C00034",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0258",
+            "name": "MERMELADA BEEPURE CLASICA ARANDANOS",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0259",
+            "name": "MERMELADA BEEPURE CLASICA FRAMBUESA",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0260",
+            "name": "MERMELADA BEEPURE CLASICA FRUTILLA",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0261",
+            "name": "MERMELADA BEEPURE CLASICA FRUTOS DEL BOSQUE",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0262",
+            "name": "MERMELADA BEEPURE FRUTILLA - SIN AZUCAR",
+            "category_id": "C00034",
+            "tac": "FALSE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0263",
+            "name": "MERMELADA DOÑA MAGDALENA ARANDANOS - CON STEVIA",
+            "category_id": "C00034",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0264",
+            "name": "MERMELADA DOÑA MAGDALENA FRUTILLA - CON STEVIA",
+            "category_id": "C00034",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0265",
+            "name": "MERMELADA DOÑA MAGDALENA FRUTOS ROJOS - CON STEVIA",
+            "category_id": "C00034",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0266",
+            "name": "MERMELADA TRANQUILINA ARÁNDANOS - SIN AZUCAR",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0267",
+            "name": "MERMELADA TRANQUILINA CIRUELA - SIN AZUCAR ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0268",
+            "name": "MERMELADA TRANQUILINA DURAZNO - SIN AZUCAR ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0269",
+            "name": "MERMELADA TRANQUILINA FRUTILLA - SIN AZUCAR",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0270",
+            "name": "MERMELADA TRANQUILINA FRUTOS DEL BOSQUE - SIN AZUCAR ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0271",
+            "name": "MERMELADA TRANQUILINA NARANJA - SIN AZUCAR",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0272",
+            "name": "MERMELADAS CUARTO CRECIENTE ARÁNDANOS - CON STEVIA ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0273",
+            "name": "MERMELADAS CUARTO CRECIENTE CIRUELA - CON STEVIA ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0274",
+            "name": "MERMELADAS CUARTO CRECIENTE DURAZNO - CON STEVIA ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0275",
+            "name": "MERMELADAS CUARTO CRECIENTE FRUTILLA - CON STEVIA",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0276",
+            "name": "MERMELADAS CUARTO CRECIENTE FRUTOS ROJOS - CON STEVIA ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0277",
+            "name": "MERMELADAS CUARTO CRECIENTE HIGO - CON STEVIA ",
+            "category_id": "C00034",
+            "tac": "TRUE",
+            "offert": "TRUE"
+        },
+        {
+            "id": "P0278",
+            "name": "MIEL CREMOSA NECTAR DE LOS DIOSES",
+            "category_id": "C00035",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0279",
+            "name": "MIEL CREMOSA PREMIUM BEEPURE",
+            "category_id": "C00035",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0280",
+            "name": "MIEL LÍQUIDA NECTAR DE LOS DIOSES",
+            "category_id": "C00035",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0281",
+            "name": "MIEL LIQUIDA PREMIUM BEEPURE",
+            "category_id": "C00035",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0282",
+            "name": "MIX DE SEMILLAS (LINO-GIRSAOL-CHIA-MIJO-SESAMO-QUINOA)",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0283",
+            "name": "MIX ENERGÍA (pasas negras, pasas rubias, almendras, nueces, maní sin sal, bananitas)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0284",
+            "name": "MIX GRIEGO (pasas rubias, arandanos, almendras, caju)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0285",
+            "name": "MIX HAPPY (pasas negras, pasas rubias, almendras, nueces, mani sin sal)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0286",
+            "name": "MIX PREMIUM (almendras, nueces, avellanas, cajú)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0287",
+            "name": "MIX PREMIUM CON MANI  (almendras, nueces, avellanas, cajú, maní)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0288",
+            "name": "MIX SALADO (sésamo, maní salado, semillas de zapallo, maiz frito, almendras tostadas y saladas)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0289",
+            "name": "MIX TRADICIONAL SIN MANI (pasas negras, pasas rubias, almendras, cajú y nueces)",
+            "category_id": "C00036",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0290",
+            "name": "MUECAS ARANDANOS Y PASAS",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0291",
+            "name": "MUECAS BANANA Y DULCE DE LECHE",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0292",
+            "name": "MUECAS COCO",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0293",
+            "name": "MUECAS MANZANA ",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0294",
+            "name": "MUECAS PASAS",
+            "category_id": "C00008",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0295",
+            "name": "NINA GALLETITAS BIZCOCHITOS DE OLIVA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0296",
+            "name": "NINA GALLETITAS BLONDIES SUGAR FREE",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0297",
+            "name": "NINA GALLETITAS CHOCOCHIP",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0298",
+            "name": "NINA GALLETITAS CHOCOLATE BLISS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0299",
+            "name": "NINA GALLETITAS CRANBERRY",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0300",
+            "name": "NINA GALLETITAS LEMON & GINGER",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0301",
+            "name": "NUECES MARIPOSA CHANDLER EXTRA LIGHT",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0302",
+            "name": "NUECES PECAN",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0303",
+            "name": "OREGANO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0304",
+            "name": "PAN INTEGRAL CON SEMILLAS",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0305",
+            "name": "PAN RALLADO JAPONÉS",
+            "category_id": "C00040",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0306",
+            "name": "PASA DE UVA CON CHOCOLATE ",
+            "category_id": "C00014",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0307",
+            "name": "PASAS DE UVA MOROCHAS FLAME PREMIUM ",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0308",
+            "name": "PASAS DE UVA RUBIAS",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0309",
+            "name": "PASAS JUMBO MOROCHAS PREMIUM",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0310",
+            "name": "PEREJIL DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0311",
+            "name": "PIMENTON AHUMADO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0312",
+            "name": "PIMENTON AHUMADO SHIO",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0313",
+            "name": "PIMENTON DULCE DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0314",
+            "name": "PIMIENTA BLANCA EN GRANO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0315",
+            "name": "PIMIENTA BLANCA MOLIDA DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0316",
+            "name": "PIMIENTA NEGRA EN GRANO DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0317",
+            "name": "PIMIENTA NEGRA MOLIDA DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0318",
+            "name": "PISTACHO",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0319",
+            "name": "PIZZA INTEGRAL DE MUZZARELLA",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0320",
+            "name": "PIZZAS INTEGRALES ESPECIALES CALABRESA",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0321",
+            "name": "PIZZAS INTEGRALES ESPECIALES CEBOLLA",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0322",
+            "name": "PIZZAS INTEGRALES ESPECIALES CEBOLLA DE VERDEO",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0323",
+            "name": "PIZZAS INTEGRALES ESPECIALES HUEVO",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0324",
+            "name": "PIZZAS INTEGRALES ESPECIALES JAMON Y MORRÓN",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0325",
+            "name": "PIZZAS INTEGRALES ESPECIALES ROQUEFORT",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0326",
+            "name": "PIZZAS INTEGRALES ESPECIALES TOMATE",
+            "category_id": "C00038",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0327",
+            "name": "POLEN CON ZINC Y VIT \"C\" EN CAPSULAS",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0328",
+            "name": "POLVO DE HORNEAR",
+            "category_id": "C00037",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0329",
+            "name": "POLVO DE HORNEAR - SIN TAC",
+            "category_id": "C00037",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0330",
+            "name": "POROTO COLORADO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0331",
+            "name": "POROTOS ADZUKI",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0332",
+            "name": "POROTOS ALUBIA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0333",
+            "name": "POROTOS CRANBERRYS",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0334",
+            "name": "POROTOS MUNG",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0335",
+            "name": "POROTOS NEGROS",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0336",
+            "name": "POROTOS PALLARES GRANDES",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0337",
+            "name": "PREMEZCLA DELICEL BIZCOCHUELO CHOCOLATE",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0338",
+            "name": "PREMEZCLA DELICEL BIZCOCHUELO VAINILLA",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0339",
+            "name": "PREMEZCLA DELICEL ÑOQUIS",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0340",
+            "name": "PREMEZCLA DELICEL PAN",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0341",
+            "name": "PREMEZCLA DELICEL PIZZA",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0342",
+            "name": "PREMEZCLA DELICEL UNIVERSAL",
+            "category_id": "C00027",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0343",
+            "name": "PROVENZAL DICOMERE SOBRE",
+            "category_id": "C00017",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0344",
+            "name": "PSYLLIUM SUPLEMENTO DIETARIO EN POLVO. SABOR NARANJA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0345",
+            "name": "QUESO VEGANO TIPO PARMESANO",
+            "category_id": "C00039",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0346",
+            "name": "QUINOA ",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0347",
+            "name": "QUINOA POP",
+            "category_id": "C00011",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0348",
+            "name": "REBOZADOR DE ARROZ DELUXE",
+            "category_id": "C00040",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0349",
+            "name": "SAL HIMALAYA PREMIUM",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0350",
+            "name": "SAL MARINA CEBOLLA & AJO SHIO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0351",
+            "name": "SAL MARINA FINA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0352",
+            "name": "SAL MARINA GRUESA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0353",
+            "name": "SAL MARINA HIERBAS FINAS SHIO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0354",
+            "name": "SAL MARINA HONGOS & TRUFAS SHIO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0355",
+            "name": "SAL SHIO BARBACOA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0356",
+            "name": "SAL SHIO CILANTRO, TOMILLO & ESTRAGON",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0357",
+            "name": "SAL SHIO CURRY & SESAMO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0358",
+            "name": "SAL SHIO HIERBAS",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0359",
+            "name": "SAL SHIO HONGOS & TRUFA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0360",
+            "name": "SAL SHIO JENGIBRE & AJO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0361",
+            "name": "SAL SHIO PAPRIKA & CURCUMA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0362",
+            "name": "SAL SHIO PIMENTON AHUMADO & AJI CAYENA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0363",
+            "name": "SAL SHIO ROMERO & MOSTAZA",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0364",
+            "name": "SAL SHIO TOMATE ASADO",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0365",
+            "name": "SALSA DE SOJA BITARWAN TRADICIONAL",
+            "category_id": "C00042",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0366",
+            "name": "SALUSIN SIN SODIO CARNES ROJAS",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0367",
+            "name": "SALUSIN SIN SODIO CLÁSICA ",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0368",
+            "name": "SALUSIN SIN SODIO HIERBAS",
+            "category_id": "C00041",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0369",
+            "name": "SALVADO DE AVENA",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0370",
+            "name": "SATIAL CONTROLLER",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0371",
+            "name": "SATIAL FOOD CARB CONTROLLER EN POLVO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0372",
+            "name": "SEMILLA CHIA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0373",
+            "name": "SEMILLA DE AMAPOLA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0374",
+            "name": "SEMILLA GIRASOL PELADA",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0375",
+            "name": "SEMILLA LINO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0376",
+            "name": "SEMILLAS DE AMARANTO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0377",
+            "name": "SEMILLAS DE ZAPALLO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0378",
+            "name": "SEMILLAS DE ZAPALLO TOSTADAS Y SALADAS",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0379",
+            "name": "SEMOLA DE TRIGO CANDEAL FINA DICOMERE",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0380",
+            "name": "SESAMO BLANCO ",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0381",
+            "name": "SESAMO INTEGRAL",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0382",
+            "name": "SESAMO NEGRO ",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0383",
+            "name": "SMAMS BISCUITS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0384",
+            "name": "SMAMS BIZCOCHOS AGRIDULCES AZUCARADOS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0385",
+            "name": "SMAMS BUDIN CHIPS DE CHOCO - KOSHER",
+            "category_id": "C00023",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0386",
+            "name": "SMAMS BUDIN MARMOLADO - KOSHER",
+            "category_id": "C00023",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0387",
+            "name": "SMAMS BUDIN VAINILLA - KOSHER",
+            "category_id": "C00023",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0388",
+            "name": "SMAMS CHOCO BOLSA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0389",
+            "name": "SMAMS CRACKERS CLASICAS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0390",
+            "name": "SMAMS CRACKERS CON SEMILLAS",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0391",
+            "name": "SMAMS CRACKERS SIN SAL",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0392",
+            "name": "SMAMS GALLETITAS CHIPS CHOCOLATE NEGRO EN BOLSA ",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0393",
+            "name": "SMAMS GALLETITAS RELLENAS CHOCOLATE",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0394",
+            "name": "SMAMS GALLETITAS RELLENAS FRUTILLA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0395",
+            "name": "SMAMS GALLETITAS RELLENAS VAINILLA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0396",
+            "name": "SMAMS POLVORON COCO",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0397",
+            "name": "SMAMS POLVORON LIMON",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0398",
+            "name": "SMAMS POLVORON VAINILLA",
+            "category_id": "C00023",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0399",
+            "name": "SOJA TEXTURIZADA",
+            "category_id": "C00026",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0400",
+            "name": "SPIRULINA MAX GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0401",
+            "name": "SPIRULINA POLVO GOLDFISH",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0402",
+            "name": "STEVIA JUAL EN POLVO",
+            "category_id": "C00007",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0403",
+            "name": "STEVIA JUAL LIQUIDO",
+            "category_id": "C00007",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0404",
+            "name": "TABLETA CHOCOLATE PARA TAZA",
+            "category_id": "C00013",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0405",
+            "name": "TABLETA DE CHOCOLATE COLONIAL 55% CACAO - SIN AZUCAR ",
+            "category_id": "C00013",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0406",
+            "name": "TABLETA DE CHOCOLATE COLONIAL 70% CACAO - CON STEVIA",
+            "category_id": "C00013",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0407",
+            "name": "TE  MEDITACION",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0408",
+            "name": "TE HEREDIA MANZANILLA",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0409",
+            "name": "TE JENGIBRE",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0410",
+            "name": "TE MATCHA",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0411",
+            "name": "TE NEGRO HEREDIA",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0412",
+            "name": "TE NOCHE",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0413",
+            "name": "TE SURTIDO BIENESTAR",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0414",
+            "name": "TE SURTIDO CLASICO",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0415",
+            "name": "TE VERDE",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0416",
+            "name": "TE VERDE CON LIMON Y NARANJA",
+            "category_id": "C00045",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0417",
+            "name": "TINTURA MADRE COMPUESTA N° 305 - ARANDANO, STEVIA, CANELA Y BARDANA CON NIACINA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0418",
+            "name": "TINTURA MADRE N° 112 - EQUINACEA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0419",
+            "name": "TINTURA MADRE N° 132 - ROMPEPIEDRAS",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0420",
+            "name": "TINTURA MADRE N° 139 - ARÁNDANO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0421",
+            "name": "TINTURA MADRE N° 154 - CARDO MARIANO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0422",
+            "name": "TINTURA MADRE N° 168 - CURCUMA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0423",
+            "name": "TINTURA MADRE N° 21 - AMBAY",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0424",
+            "name": "TINTURA MADRE N° 27 - CARQUEJA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0425",
+            "name": "TINTURA MADRE N° 30 - COLA DE CABALLO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0426",
+            "name": "TINTURA MADRE N° 36 - GINKGO BILOBA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0427",
+            "name": "TINTURA MADRE N° 43 - MELISA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0428",
+            "name": "TINTURA MADRE N° 46 - PASIONARIA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0429",
+            "name": "TINTURA MADRE N° 55 - TILO",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0430",
+            "name": "TINTURA MADRE N° 57 - VALERIANA",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0431",
+            "name": "TINTURA MADRE N° 88 - AMARGON",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0432",
+            "name": "TOMATE SECO GRANDES",
+            "category_id": "C00020",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0433",
+            "name": "TOSTADAS DE ARROZ MOLINOS ALA COMUNES",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0434",
+            "name": "TOSTADAS DE ARROZ MOLINOS ALA INTEGRAL - SIN SAL",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0435",
+            "name": "TOSTADAS DE ARROZ MOLINOS ALA INTEGRALES",
+            "category_id": "C00021",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0436",
+            "name": "TRIGO BURGOL FINO",
+            "category_id": "C00043",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0437",
+            "name": "VITAMINA B-12",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0438",
+            "name": "VITAMINA C CAPSULAS",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0439",
+            "name": "VITAMINA D + K",
+            "category_id": "C00018",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0440",
+            "name": "WAKAS LEGUMBRES ARVEJA & CHIA",
+            "category_id": "C00019",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0441",
+            "name": "WAKAS LEGUMBRES GARBANZO & CHIA",
+            "category_id": "C00019",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0442",
+            "name": "WAKAS LEGUMBRES LENTEJA & CHIA",
+            "category_id": "C00019",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0443",
+            "name": "WAKAS LEGUMBRES POROTO & CHIA",
+            "category_id": "C00019",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0444",
+            "name": "WAKAS MULTICEREAL AMARANTO",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0445",
+            "name": "WAKAS MULTICEREAL CHIA",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0446",
+            "name": "WAKAS MULTICEREAL KALE",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0447",
+            "name": "WAKAS MULTICEREAL MAIZ",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0448",
+            "name": "WAKAS MULTICEREAL QUINOA ",
+            "category_id": "C00019",
+            "tac": "FALSE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0449",
+            "name": "YERBA MATE VERDEFLOR BOLDO",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0450",
+            "name": "YERBA MATE VERDEFLOR CEDRON",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0451",
+            "name": "YERBA MATE VERDEFLOR HIERBAS SERRANAS",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0452",
+            "name": "YERBA MATE VERDEFLOR MENTA",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0453",
+            "name": "YERBA MATE VERDEFLOR NARANJA ",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0454",
+            "name": "YERBA ORGÁNICA ROAPIPÓ HIERBAS NATURALES",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0455",
+            "name": "YERBA ORGÁNICA ROAPIPÓ SUAVE",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        },
+        {
+            "id": "P0456",
+            "name": "YERBA ORGÁNICA ROAPIPÓ TRADICIONAL",
+            "category_id": "C00046",
+            "tac": "TRUE",
+            "offert": "FALSE"
+        }
+    ]
+}

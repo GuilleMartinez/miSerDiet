@@ -1,108 +1,177 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>E-commerce</title>
 
 
 	<style type="text/css">
-
 		* {
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
 		}
 
-		#product-list {
-			padding: 20px;
-			display: grid;
-			grid-template-columns: repeat( auto-fit, minmax(300px, 0.5fr)  );
-			grid-gap: 40px;
-			justify-items: center;
-			list-style: none;
+		.filter-label {
+			font-size: smaller;
 		}
-
-		section{
-			margin-bottom: 60px;
-			text-align: center;
-		}
-
 
 		.product {
+			margin-bottom: 30px;
+			width: 450px;
+			height: 250px;
 			display: flex;
 			flex-flow: column nowrap;
-			justify-content: space-between;
-			height: 200px;
+			justify-content: space-evenly;
+			align-items: center;
 		}
 
-		button {
-			width: 50px;
+		.product-title {
+			font-size: small;
 		}
 
-		table {
-			max-width: 450px;
-			border-collapse: collapse;
-			text-align: center;
-			table-layout: fixed;
-			margin-bottom: 20px;
-			margin-left: auto;
-			margin-right: auto;
+		#categories {
+			position: fixed;
+			height: 100vh;
+			overflow-y: scroll;
+			top: 0;
+			left: -100%;
+			transition: left 0.2s ease;
+			width: 450px;
+			background-color: cornflowerblue;
+			padding: 10px;
 		}
 
-		#total {
-				margin-bottom: 20px;
-				margin-left: auto;
-				margin-right: auto;
-				width: 450px;
-				text-align: center;
+		#categories .filter-input {
+			display: none;
+		}
+
+		#categories .filter-input:checked+.filter-label {
+			background-color: burlywood;
+		}
+
+		#categories:target {
+			left: 0;
 		}
 
 		.title {
 			text-align: center;
+		}
+
+		#products {
+			width: 100%;
+		}
+
+
+		.add-cart-btn {
+			width: 45px;
+		}
+
+		.product-container {
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.catalog-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 450px);
+			gap: 10px;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.cart-item {
+			font-size: small;
+			height: 100px;
 			margin-bottom: 10px;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-evenly;
 		}
 
-		.pay-btn {
-			background-color: green;
-			color: white;
-			border: none;
-			width: 120px;
-			height: 45px;
+		.delete-item-btn {
+			width: max-content;
+			padding: 0 5px;
 		}
 
+		#shopping-cart {
+			width: max-content;
+			margin: 0 auto;
+			list-style: none;
+		}
+
+		.cart-info {
+			text-align: center;
+		}
+
+		#cart {
+			width: 650px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			visibility: hidden;
+			opacity: 0;
+			background-color: cadetblue;
+		}
+
+		#cart:target {
+			visibility: visible;
+			opacity: 1;
+			transition: opacity 0.5s ease-in;
+		}
 	</style>
 </head>
+
 <body>
 
-	<section id="products">
-		<h2 class="title">Products</h2>
-		<ul id="product-list" role="list"></ul>
-	</section>
+	<a href="#categories">Ir a categorias</a>
+	<a href="#cart">Abrir carrito</a>
 
-	
-	<section id="cart">
-		<h2 class="title">Cart</h2>
-		<table>
-		<thead>
-			<tr>
-				<th scope="col">Product</th>
-				<th scope="col">Count</th>
-				<th scope="col">Subtotal</th>
-				<th scope="col"></th>
-			</tr>
-		</thead>
 
-		<tbody id="shopping-cart"></tbody>
-	</table>
+	<main id="main-container">
 
-	<div id="total">Total: $0</div>
+		<section id="search-box">
 
-   	<button class="pay-btn">BUY STUFF!</button>
+			<form method="POST">
+				<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
+					id="search-product">
+				<datalist id="suggestions"> </datalist>
+			</form>
 
- </section>
+		</section>
 
-	<script type="text/javascript" src="./src/cart.js"></script>
-	<script type="text/javascript" src="./src/database.js"></script>
-	<script type="text/javascript" src="./src/products.js"></script>
-	<script type="text/javascript" src="./src/script.js"></script>
+		<section id="categories">
+			<a href="#">Cerrar</a>
+			<ul id="categories-list">
+				<li>
+					<input checked type="radio" id="default" value="" class="filter-input" type="radio" name="filter">
+					<label for="default" class="filter-label">INICIO</label>
+				</li>
+			</ul>
+		</section>
+
+		<section id="products">
+			<h2 id="catalog-title" class="title">NUESTROS PRODUCTOS</h2>
+			<div id="product-list"></div>
+		</section>
+
+
+		<section id="cart">
+			<a href="#">Cerrar</a>
+			<h2 class="title">Cart</h2>
+			<ul id="shopping-cart" role="list"></ul>
+			<div class="cart-info">
+				<p id="total">Total a pagar: $0</p>
+				<button class="pay-btn">BUY STUFF!</button>
+			</div>
+		</section>
+
+	</main>
+
+	<script type="text/javascript" src="./src/scripts/cart.js"></script>
+	<script type="text/javascript" src="./src/scripts/app.js"></script>
+	<script type="text/javascript" src="./src/scripts/script.js"></script>
 </body>
+
 </html>

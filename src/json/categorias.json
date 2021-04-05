@@ -1,0 +1,188 @@
+﻿{
+    "categorias": [
+        {
+            "id": "C00001",
+            "name": "ACEITE DE COCO"
+        },
+        {
+            "id": "C00002",
+            "name": "ACEITES DE OLIVA"
+        },
+        {
+            "id": "C00003",
+            "name": "ACETO BALSÁMICO"
+        },
+        {
+            "id": "C00004",
+            "name": "ALBUMINA DE HUEVO EN POLVO"
+        },
+        {
+            "id": "C00005",
+            "name": "ALFAJORES"
+        },
+        {
+            "id": "C00006",
+            "name": "AVENA"
+        },
+        {
+            "id": "C00007",
+            "name": "AZUCAR Y STEVIA"
+        },
+        {
+            "id": "C00008",
+            "name": "BARRAS DE CEREAL"
+        },
+        {
+            "id": "C00009",
+            "name": "CACAO"
+        },
+        {
+            "id": "C00010",
+            "name": "CEPILLOS DE DIENTE"
+        },
+        {
+            "id": "C00011",
+            "name": "CEREALES "
+        },
+        {
+            "id": "C00012",
+            "name": "CEREALES SIN TACC"
+        },
+        {
+            "id": "C00013",
+            "name": "CHOCOLATE EN BARRA"
+        },
+        {
+            "id": "C00014",
+            "name": "CONFITURAS DE CHOCOLATE Y BAÑO DE REPOSTERIA"
+        },
+        {
+            "id": "C00015",
+            "name": "DULCE DE LECHE"
+        },
+        {
+            "id": "C00016",
+            "name": "ESENCIA Y EXTRACTO DE VAINILLA"
+        },
+        {
+            "id": "C00017",
+            "name": "ESPECIAS"
+        },
+        {
+            "id": "C00018",
+            "name": "FARMACIA NATURAL"
+        },
+        {
+            "id": "C00019",
+            "name": "FIDEOS"
+        },
+        {
+            "id": "C00020",
+            "name": "FRUTOS SECOS"
+        },
+        {
+            "id": "C00021",
+            "name": "GALLETAS DE ARROZ"
+        },
+        {
+            "id": "C00022",
+            "name": "GALLETITAS DULCES Y BUDINES"
+        },
+        {
+            "id": "C00023",
+            "name": "GALLETITAS SIN TACC"
+        },
+        {
+            "id": "C00024",
+            "name": "GOMA XÁNTICA"
+        },
+        {
+            "id": "C00025",
+            "name": "GRANOLAS"
+        },
+        {
+            "id": "C00026",
+            "name": "HARINAS/ FECULAS"
+        },
+        {
+            "id": "C00027",
+            "name": "HARINAS/ PREMEZCLAS SIN TACC"
+        },
+        {
+            "id": "C00028",
+            "name": "JUGOS"
+        },
+        {
+            "id": "C00029",
+            "name": "LECHES"
+        },
+        {
+            "id": "C00030",
+            "name": "LEVADURA"
+        },
+        {
+            "id": "C00031",
+            "name": "MACA"
+        },
+        {
+            "id": "C00032",
+            "name": "MANTECA CLARIFICADA"
+        },
+        {
+            "id": "C00033",
+            "name": "MANTEQUILLA DE MANI"
+        },
+        {
+            "id": "C00034",
+            "name": "MERMELADAS"
+        },
+        {
+            "id": "C00035",
+            "name": "MIELES"
+        },
+        {
+            "id": "C00036",
+            "name": "MIX DE FRUTOS SECOS"
+        },
+        {
+            "id": "C00037",
+            "name": "POLVO DE HORNEAR"
+        },
+        {
+            "id": "C00038",
+            "name": "PRODUCTOS ELABORADOS"
+        },
+        {
+            "id": "C00039",
+            "name": "RAWMESAN"
+        },
+        {
+            "id": "C00040",
+            "name": "REBOZADOR"
+        },
+        {
+            "id": "C00041",
+            "name": "SALES"
+        },
+        {
+            "id": "C00042",
+            "name": "SALSA DE SOJA"
+        },
+        {
+            "id": "C00043",
+            "name": "SEMILLAS Y LEGUMBRES"
+        },
+        {
+            "id": "C00044",
+            "name": "SNACKS"
+        },
+        {
+            "id": "C00045",
+            "name": "TE"
+        },
+        {
+            "id": "C00046",
+            "name": "YERBAS"
+        }
+    ]
+}
