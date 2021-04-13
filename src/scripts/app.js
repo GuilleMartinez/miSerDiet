@@ -63,7 +63,7 @@ class App {
 
 	createCatalog(catalogList) {
 
-		const catalog = catalogList.map(item => createHTML(item, this.findProduct(item.product_id)));
+		const catalog = catalogList.map(item => createHTML(item, this.findProduct(item.product_id)))
 
 		return catalog;
 
@@ -85,13 +85,20 @@ class App {
 	/* RENDER METHODS */
 
 	renderCategories() {
-		this.categories.map(category => {
-			this._htmlCategories.innerHTML +=
-				`<li>
-				<input id="${category.id}"  class="filter-input" type="radio" name="filter" value="${category.id}"/>
-				<label for="${category.id}" class="filter-label">${category.name}</label>
-			</li>`;
-		});
+		this.categories.map(group => this._htmlCategories.innerHTML += createHTML(group.name, group.categories));
+
+		function createHTML(group, array) {
+
+			const container = array.map(category => ` <div>
+			<input class="filter-input" id="${category.id}" value="${category.id}" type="radio" name="filter" > 
+			<label class="filter-label" for="${category.id}"> ${category.name} </label> \n </div>`).join("\n");
+
+			return `<details> 
+						<summary>${group}</summary>
+						${container}
+					</details>
+					`
+		}
 	}
 
 	renderSuggestions() {
@@ -111,13 +118,12 @@ class App {
 
 		this._htmlCatalog.innerHTML = "";
 		this._htmlCatalog.classList.remove("catalog-grid");
-
-		this.categories.map(categ => {
+		this.categories.map(group => {
 			this._htmlCatalog.innerHTML += `
-			<section id="${categ.name}">
-				<h2 class="title">${categ.name}</h2>
+			<section id="${group.name}">
+				<h2 class="title">${group.name}</h2>
 				<div class="product-container"> 
-					${this.createCatalog(this.filterCatalog(this.filterByCategory(categ.id), 3))}
+					${this.createCatalog(this.filterCatalog(this.filterByCategory(group.categories[0].id), 3))}
 				</div>
 			</section>
 		`}

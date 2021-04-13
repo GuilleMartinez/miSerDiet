@@ -1,0 +1,32 @@
+﻿{
+    "grupos": [
+        {
+            "id": "G0001",
+            "name": "Hecho En Casa"
+        },
+        {
+            "id": "G0002",
+            "name": "Alacena"
+        },
+        {
+            "id": "G0003",
+            "name": "Bebida"
+        },
+        {
+            "id": "G0004",
+            "name": "Snacks"
+        },
+        {
+            "id": "G0005",
+            "name": "Lácteos"
+        },
+        {
+            "id": "G0006",
+            "name": "Farmacia E Higiene"
+        },
+        {
+            "id": "G0007",
+            "name": "Repostería"
+        }
+    ]
+}

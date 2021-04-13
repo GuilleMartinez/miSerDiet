@@ -2,187 +2,233 @@
     "categorias": [
         {
             "id": "C00001",
-            "name": "ACEITE DE COCO"
+            "name": "Aceite De Coco",
+            "group_id": "G0002"
         },
         {
             "id": "C00002",
-            "name": "ACEITES DE OLIVA"
+            "name": "Aceites De Oliva",
+            "group_id": "G0002"
         },
         {
             "id": "C00003",
-            "name": "ACETO BALSÁMICO"
+            "name": "Aceto Balsámico",
+            "group_id": "G0002"
         },
         {
             "id": "C00004",
-            "name": "ALBUMINA DE HUEVO EN POLVO"
+            "name": "Albumina De Huevo En Polvo",
+            "group_id": "G0005"
         },
         {
             "id": "C00005",
-            "name": "ALFAJORES"
+            "name": "Alfajores",
+            "group_id": "G0004"
         },
         {
             "id": "C00006",
-            "name": "AVENA"
+            "name": "Avena",
+            "group_id": "G0002"
         },
         {
             "id": "C00007",
-            "name": "AZUCAR Y STEVIA"
+            "name": "Azucar Y Stevia",
+            "group_id": "G0004"
         },
         {
             "id": "C00008",
-            "name": "BARRAS DE CEREAL"
+            "name": "Barras De Cereal",
+            "group_id": "G0004"
         },
         {
             "id": "C00009",
-            "name": "CACAO"
+            "name": "Cacao",
+            "group_id": "G0002"
         },
         {
             "id": "C00010",
-            "name": "CEPILLOS DE DIENTE"
+            "name": "Cepillos De Diente",
+            "group_id": "G0006"
         },
         {
             "id": "C00011",
-            "name": "CEREALES "
+            "name": "Cereales ",
+            "group_id": "G0004"
         },
         {
             "id": "C00012",
-            "name": "CEREALES SIN TACC"
+            "name": "Cereales Sin Tacc",
+            "group_id": "G0004"
         },
         {
             "id": "C00013",
-            "name": "CHOCOLATE EN BARRA"
+            "name": "Chocolate En Barra",
+            "group_id": "G0004"
         },
         {
             "id": "C00014",
-            "name": "CONFITURAS DE CHOCOLATE Y BAÑO DE REPOSTERIA"
+            "name": "Confituras De Chocolate Y Baño De Reposteria",
+            "group_id": "G0007"
         },
         {
             "id": "C00015",
-            "name": "DULCE DE LECHE"
+            "name": "Dulce De Leche",
+            "group_id": "G0002"
         },
         {
             "id": "C00016",
-            "name": "ESENCIA Y EXTRACTO DE VAINILLA"
+            "name": "Esencia Y Extracto De Vainilla",
+            "group_id": "G0007"
         },
         {
             "id": "C00017",
-            "name": "ESPECIAS"
+            "name": "Especias",
+            "group_id": "G0002"
         },
         {
             "id": "C00018",
-            "name": "FARMACIA NATURAL"
+            "name": "Farmacia Natural",
+            "group_id": "G0006"
         },
         {
             "id": "C00019",
-            "name": "FIDEOS"
+            "name": "Fideos",
+            "group_id": "G0002"
         },
         {
             "id": "C00020",
-            "name": "FRUTOS SECOS"
+            "name": "Frutos Secos",
+            "group_id": "G0004"
         },
         {
             "id": "C00021",
-            "name": "GALLETAS DE ARROZ"
+            "name": "Galletas De Arroz",
+            "group_id": "G0004"
         },
         {
             "id": "C00022",
-            "name": "GALLETITAS DULCES Y BUDINES"
+            "name": "Galletitas Dulces Y Budines",
+            "group_id": "G0004"
         },
         {
             "id": "C00023",
-            "name": "GALLETITAS SIN TACC"
+            "name": "Galletitas Sin Tacc",
+            "group_id": "G0004"
         },
         {
             "id": "C00024",
-            "name": "GOMA XÁNTICA"
+            "name": "Goma Xántica",
+            "group_id": "G0007"
         },
         {
             "id": "C00025",
-            "name": "GRANOLAS"
+            "name": "Granolas",
+            "group_id": "G0004"
         },
         {
             "id": "C00026",
-            "name": "HARINAS/ FECULAS"
+            "name": "Harinas/ Feculas",
+            "group_id": "G0002"
         },
         {
             "id": "C00027",
-            "name": "HARINAS/ PREMEZCLAS SIN TACC"
+            "name": "Harinas/ Premezclas Sin Tacc",
+            "group_id": "G0002"
         },
         {
             "id": "C00028",
-            "name": "JUGOS"
+            "name": "Jugos",
+            "group_id": "G0003"
         },
         {
             "id": "C00029",
-            "name": "LECHES"
+            "name": "Leches",
+            "group_id": "G0003"
         },
         {
             "id": "C00030",
-            "name": "LEVADURA"
+            "name": "Levadura",
+            "group_id": "G0002"
         },
         {
             "id": "C00031",
-            "name": "MACA"
+            "name": "Maca",
+            "group_id": "G0006"
         },
         {
             "id": "C00032",
-            "name": "MANTECA CLARIFICADA"
+            "name": "Manteca Clarificada",
+            "group_id": "G0005"
         },
         {
             "id": "C00033",
-            "name": "MANTEQUILLA DE MANI"
+            "name": "Mantequilla De Mani",
+            "group_id": "G0004"
         },
         {
             "id": "C00034",
-            "name": "MERMELADAS"
+            "name": "Mermeladas",
+            "group_id": "G0002"
         },
         {
             "id": "C00035",
-            "name": "MIELES"
+            "name": "Mieles",
+            "group_id": "G0002"
         },
         {
             "id": "C00036",
-            "name": "MIX DE FRUTOS SECOS"
+            "name": "Frutos Secos",
+            "group_id": "G0004"
         },
         {
             "id": "C00037",
-            "name": "POLVO DE HORNEAR"
+            "name": "Polvo De Hornear",
+            "group_id": "G0007"
         },
         {
             "id": "C00038",
-            "name": "PRODUCTOS ELABORADOS"
+            "name": "Productos Elaborados",
+            "group_id": "G0001"
         },
         {
             "id": "C00039",
-            "name": "RAWMESAN"
+            "name": "Rawmesan",
+            "group_id": "G0002"
         },
         {
             "id": "C00040",
-            "name": "REBOZADOR"
+            "name": "Rebozador",
+            "group_id": "G0002"
         },
         {
             "id": "C00041",
-            "name": "SALES"
+            "name": "Sales",
+            "group_id": "G0002"
         },
         {
             "id": "C00042",
-            "name": "SALSA DE SOJA"
+            "name": "Salsa De Soja",
+            "group_id": "G0002"
         },
         {
             "id": "C00043",
-            "name": "SEMILLAS Y LEGUMBRES"
+            "name": "Semillas Y Legumbres",
+            "group_id": "G0002"
         },
         {
             "id": "C00044",
-            "name": "SNACKS"
+            "name": "Snacks",
+            "group_id": "G0004"
         },
         {
             "id": "C00045",
-            "name": "TE"
+            "name": "Te",
+            "group_id": "G0003"
         },
         {
             "id": "C00046",
-            "name": "YERBAS"
+            "name": "Yerbas",
+            "group_id": "G0002"
         }
     ]
 }

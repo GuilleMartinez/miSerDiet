@@ -1,5 +1,12 @@
 const number = "0xB14EE0B1";
 
+const LINKS = {
+	categories: "../src/json/categorias.json",
+	groups:  "../src/json/grupos.json",
+	products: "../src/json/productos.json",
+	catalog:  "../src/json/catalogo.json",
+}
+
 var app;
 var cart;
 
@@ -11,10 +18,11 @@ async function getData(url) {
 }
 
 async function prepareData() {
-	const products = await getData("./src/json/productos.json");
-	const categories = await getData("./src/json/categorias.json");
-	const catalog = await getData("./src/json/catalogo.json");
-	app = new App(products.productos, categories.categorias, catalog.catalogo);
+	const products = await getProducts( {database: LINKS.products } );
+	const categories = await getCategories({categoriesURL: LINKS.categories, groupsURL: LINKS.groups });
+	const catalog = await getCatalog({database: LINKS.catalog } );
+
+	app = new App(products, categories, catalog);
 }
 
 prepareData()
@@ -57,13 +65,14 @@ function filterByInput() {
 		app.renderFrontCatalog();
 		app.filtered = false;
 	}
-
+	
 }
 
 function filterBySearch(event) {
 
 	const value = event.target.value;
 	const product = app.findProduct(value) ? [app.findProduct(value)] : false;
+	app.title = "NUESTROS PRODUCTOS";
 
 	if (value && product) {
 		const products = app.filterCatalog(product);
