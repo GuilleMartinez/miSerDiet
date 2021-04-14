@@ -62,7 +62,7 @@
 .add-cart-btn {
   width: 45px;
   height: 35px;
-  background-image: url(img/cart.svg);
+  background-image: url(../img/cart.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
