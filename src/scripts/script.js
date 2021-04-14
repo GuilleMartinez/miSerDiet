@@ -1,10 +1,10 @@
 const number = "0xB14EE0B1";
 
 const LINKS = {
-	categories: "/src/json/categorias.json",
-	groups:  "/src/json/grupos.json",
-	products: "/src/json/productos.json",
-	catalog:  "/src/json/catalogo.json",
+	categories: "../src/json/categorias.json",
+	groups:  "../src/json/grupos.json",
+	products: "../src/json/productos.json",
+	catalog:  "../src/json/catalogo.json",
 }
 
 var app;
