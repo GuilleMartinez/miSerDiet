@@ -8,21 +8,28 @@
 
 <body>
 
-	<a href="#categories">Ir a categorias</a>
-	<a href="#cart">Abrir carrito</a>
+	<header>
 
-
-	<main id="main-container">
+		<div class="buttons">
+			<a href="#categories">Ir a categorias</a>
+			<a href="#cart">Abrir carrito</a>
+		</div>
 
 		<section id="search-box">
-
 			<form method="POST">
 				<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
 					id="search-product">
 				<datalist id="suggestions"> </datalist>
 			</form>
-
 		</section>
+
+	</header>
+	
+
+
+	<main id="main-container">
+
+
 
 		<section id="categories">
 			<a href="#">Cerrar</a>

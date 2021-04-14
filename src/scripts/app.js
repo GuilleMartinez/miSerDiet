@@ -71,7 +71,7 @@ class App {
 			const amount = item.amount ? `${item.amount} x $${item.price}` : `$${item.price}`;
 			return `
 			<div class="product">
-				<img src="./src/img/fff.png" alt="${product.name}"/>
+				<img class="product-img" src="./src/img/product.svg" alt="${product.name}"/>
 				<p class="product-title">${product.name}</p>
 				<p class="product-price">${amount}</p>
 				<button class="add-cart-btn" title="Add to cart" value="${item.id}">+</button>

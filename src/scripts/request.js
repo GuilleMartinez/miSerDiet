@@ -1,4 +1,4 @@
-/* REUQEST DATA */
+/* REQUEST DATA */
 
 async function requestData({ database = null, table = null }) {
 
