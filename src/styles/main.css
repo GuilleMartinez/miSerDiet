@@ -136,7 +136,11 @@ header {
   align-items: center;
   background-color: cornflowerblue;
   height: 30px;
+<<<<<<< HEAD
 
+=======
+  scroll-margin: 40px;
+>>>>>>> 81b17b3e94da2ad0bf60a7336e0101d82a36e2a7
 
 }
 
@@ -154,8 +158,11 @@ header .buttons, #search-box{
   display: block;
   width: 100%;
   text-align: center;
+<<<<<<< HEAD
 }
 
 main {
   padding-top: 40px;
+=======
+>>>>>>> 81b17b3e94da2ad0bf60a7336e0101d82a36e2a7
 }
