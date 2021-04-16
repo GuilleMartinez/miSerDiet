@@ -13,8 +13,8 @@
 	<header>
 		<!--Menú-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-				<a class="navbar-brand text-warning" href="#">Logo mi Ser Diet</a>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="src/img/logo.PNG" alt="logo" width="100%"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -32,16 +32,17 @@
 									<ul id="categories-list">
 										<li>
 											<input checked type="radio" id="default" value="" class="filter-input" type="radio" name="filter">
-											<button type="button" class="btn btn-dark"><label for="default" class="filter-label">INICIO</label></button>
+											<button type="button" class="btn btn-dark btn-lg"><label for="default" class="filter-label">INICIO</label></button>
 										</li>
 									</ul>
-									<button type="button" class="btn btn-warning"><a href="#">Cerrar</a></button>
+									<button type="button" class="btn btn-warning btn-lg"><a href="#">Cerrar</a></button>
 								</section>
 							</div>
 						</li>
 						<!--Aqui termina el menu desplegable de categorias-->
 						<a class="nav-item nav-link" href="#cart" >Carrito</a>
 						<a class="nav-item nav-link disabled" href="#">Contacto</a>
+						<!--Section de buscador del nav-->
 						<section id="search-box">
 							<form class="form-inline my-2 my-lg-0" method="POST">
 								<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
@@ -49,6 +50,7 @@
 								<datalist id="suggestions"> </datalist>
 							</form>
 						</section>
+						<!--termina la section de buscador-->
 					</div>
 				</div>
 			</div>
@@ -87,13 +89,14 @@
 	<!--Fin del carousel-->
 	
 	<main id="main-container">
-		
+		<!--Lista de productos-->
 		<section id="products">
 			<h2 id="catalog-title" class="title">NUESTROS PRODUCTOS</h2>
 			<div id="product-list"></div>
 		</section>
+		<!--fin de la lista de productos-->
 		
-		
+		<!--Card de carrito-->
 		<section id="cart">
 			<button type="button" class="btn btn-warning"><a href="#">Cerrar</a></button>
 			<h2 class="title">Cartera</h2>
@@ -103,13 +106,15 @@
 				<button class="pay-btn">COMPRAR</button>
 			</div>
 		</section>
-		
+		<!--fin de carrito-->
 	</main>
+
 	<!--JavaScript-->
 	<script type="text/javascript" src="src/scripts/request.js"></script>
 	<script type="text/javascript" src="src/scripts/cart.js"></script>
 	<script type="text/javascript" src="src/scripts/app.js"></script>
 	<script type="text/javascript" src="src/scripts/script.js"></script>
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
