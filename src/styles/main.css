@@ -25,7 +25,7 @@
 .product-img {
   width: 200px;
   height: 200px;
-
+  
 }
 #categories {
   overflow-y: scroll;
@@ -107,7 +107,7 @@
 #cart {
   width: 100%;
   position: fixed;
-  top: 5%;
+  top: 10%;
   right: 0;
   visibility: hidden;
   opacity: 0;
@@ -120,13 +120,18 @@
   transition: opacity 0.5s ease-in;
 }
 
-
+header{
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 17px;
+}
 
 
 header .buttons, #search-box{
-    display: flex;
-    justify-content: space-evenly;
-    flex-grow: .4;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: .4;
 }
 
 #search-box form {
@@ -147,3 +152,43 @@ main {
   width: 100%;
   height: 50%;
 }
+/*images del navbar*/
+nav img{
+  width: 20%;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 767px){
+  .navbar{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .navbar img{
+    width: 30%;
+  }
+
+  .product-title{
+
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+  }
+  .product-price{
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 50px;
+    padding: 60px;
+  }
+
+  #categories{
+    font-size: 35px;
+  }
+ 
+
+}
+
+
