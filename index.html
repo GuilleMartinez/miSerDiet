@@ -2,9 +2,12 @@
 <html>
 
 <head>
+	
 	<title>Mi Ser Diet</title>
+	
 	<!--Link de Main.Css-->
 	<link rel="stylesheet" href="src/styles/main.css">
+	
 	<!--Link Boostrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -13,7 +16,7 @@
 	<header>
 		<!--Menú-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
+			<div class="container">
 				<a class="navbar-brand" href="#"><img src="src/img/logo.PNG" alt="logo" width="100%"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -23,9 +26,7 @@
 						<a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 						<!--Categorias- menu desplegable-->
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Categorias
-							</a>
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="#categories"></a>
 								<section id="categories">
@@ -41,13 +42,15 @@
 						</li>
 						<!--Aqui termina el menu desplegable de categorias-->
 						<a class="nav-item nav-link" href="#cart" >Carrito</a>
-						<a class="nav-item nav-link disabled" href="#">Contacto</a>
+						<a class="nav-item nav-link" href="#" >Sobre mi</a>
+						<a class="nav-item nav-link" href="#" >Contacto</a>
+						
 						<!--Section de buscador del nav-->
 						<section id="search-box">
 							<form class="form-inline my-2 my-lg-0" method="POST">
 								<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
 								id="search-product">
-								<datalist id="suggestions"> </datalist>
+								<datalist id="suggestions"></datalist>
 							</form>
 						</section>
 						<!--termina la section de buscador-->
@@ -98,12 +101,12 @@
 		
 		<!--Card de carrito-->
 		<section id="cart">
-			<button type="button" class="btn btn-warning"><a href="#">Cerrar</a></button>
+			<button type="button" class="btn btn-dark btn-lg"><a href="#">Cerrar</a></button>
 			<h2 class="title">Cartera</h2>
 			<ul id="shopping-cart" role="list"></ul>
 			<div class="cart-info">
 				<p id="total">Total a pagar: $0</p>
-				<button class="pay-btn">COMPRAR</button>
+				<button class="pay-btn btn btn-dark btn-lg">COMPRAR</button>
 			</div>
 		</section>
 		<!--fin de carrito-->

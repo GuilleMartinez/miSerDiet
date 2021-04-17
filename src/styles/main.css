@@ -31,11 +31,15 @@
   overflow-y: scroll;
   top: 0;
   transition: left 0.2s ease;
-  width: 450px;
+  width: 350px;
   background-color: white;
   padding: 10px;
+  
 }
-
+#categories-list{
+  text-decoration: none;
+  color: black;
+}
 #categories .filter-input {
   display: inline;
 }
@@ -64,7 +68,7 @@
   background-size: contain;
   background-position: center;
   border: none;
-  background-color: transparent;
+  background-color:transparent;
 }
 
 .product-container {
@@ -125,6 +129,7 @@ header{
   margin: 0;
   color: black;
   font-size: 17px;
+
 }
 
 
@@ -152,21 +157,26 @@ main {
   width: 100%;
   height: 50%;
 }
+
 /*images del navbar*/
 nav img{
   width: 20%;
 }
 
+
+/*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
+  
+  /*Barra de navegacion*/
   .navbar{
     width: 100%;
     text-align: center;
     font-size: 35px;
   }
+  /*Logo-sobre la barra de menu*/
   .navbar img{
     width: 30%;
   }
-
   .product-title{
 
     font-size: 28px;
@@ -183,12 +193,37 @@ nav img{
     font-size: 50px;
     padding: 60px;
   }
-
+  /*Categorias*/
   #categories{
     font-size: 35px;
   }
- 
+ /*Carrito de compra*/
+  #cart{
+    width: 100%;
+    height: 23%;
+    margin-top:21%;
+    font-size: 50px;
+    
+  }
+  
+  .navbar-brand{
+    width: 100%;
+  
+  }
+  .navbar-brand img{
+    width: 40%;
+    
+  }
 
+  .navbar-toggler-icon{
+    width: 100%;
+  }
+  .navbar-toggler{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    
+  }
 }
 
 
