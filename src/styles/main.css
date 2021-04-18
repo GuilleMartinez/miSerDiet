@@ -217,7 +217,20 @@ a{
   font-size: 14px;
   text-align: center;
 }
-
+aside p{
+  color: #42596B;
+  margin: auto;
+  text-align: left;
+  font-family: roboto;
+}
+.sobremiserdiet{
+  font-family: Noto serif;
+  text-align: center;
+  font-size: 45px;
+  margin: 20px;
+  padding: 20px;
+  color: #42596B;
+}
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
   
