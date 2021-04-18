@@ -36,6 +36,7 @@
   width: 200px;
   height: auto;  
 }
+<<<<<<< HEAD
 
 
 .hover-dropdown {
@@ -44,6 +45,25 @@
 
 #categories-list {
   display: none;
+=======
+#categories {
+  overflow-y: scroll;
+  top: 0;
+  transition: left 0.2s ease;
+  width: 350px;
+  background-color:  white ;
+  padding: 20px;
+ 
+  
+}
+#categories-list{
+  text-decoration: none;
+  color: #809589 ;
+  padding: 10px;
+
+  
+  
+>>>>>>> 152ed92f06578c81e6cd1edaf7afe7864737f98c
 }
 
 .hover-dropdown:hover #categories-list {
@@ -68,8 +88,14 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .filter-input:checked + .filter-label {
   background-color: burlywood;
+=======
+#categories .filter-input:checked + .filter-label {
+  background-color: white;
+  border:1px solid red;
+>>>>>>> 152ed92f06578c81e6cd1edaf7afe7864737f98c
 }
 
 #categories:target {
@@ -148,15 +174,6 @@
   transition: opacity 0.5s ease-in;
 }
 
-header{
-  padding: 0;
-  margin: 0;
-  color: black;
-  font-size: 17px;
-
-}
-
-
 header .buttons, #search-box{
   display: flex;
   justify-content: space-evenly;
@@ -179,27 +196,99 @@ main {
 /*Carousel-items*/
 .carousel-item{
   width: 100%;
-  height: 50%;
+ 
 }
+
 
 /*images del navbar*/
 nav img{
-  width: 20%;
+  width: 70px;
+  margin: 0%;
+  padding: 0;
+}
+
+.nav-item{
+  
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  
 }
 
 
+/*Contacto-Footer*/
+.contacto{
+  width: 100%;
+  background-color:#F0A54A;
+  color: white;
+  font-family:monospace;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 10px ;
+  text-align: center;
+}
+
+.contacto h3{
+  font-size: 20px;
+
+}
+
+.contacto p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*Informacion debajo de carousel*/
+.informacion{
+  background-color: #809589 ;
+  font-size: 10px;
+  color: white;
+  font-family: monospace;
+  height: 250px;
+  text-align: center;
+  padding-top: 30px;
+  
+}
+.informacion h3{
+  font-size: 20px;
+  padding: 20px;
+}
+.informacion p{
+  font-size: 14px;
+  text-align: center;
+}
+aside p{
+  color: #42596B;
+  margin: auto;
+  text-align: left;
+  font-family: roboto;
+}
+.sobremiserdiet{
+  font-family: Noto serif;
+  text-align: center;
+  font-size: 45px;
+  margin: 20px;
+  padding: 20px;
+  color: #42596B;
+}
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
   
   /*Barra de navegacion*/
-  .navbar{
-    width: 100%;
+  .navbar-nav{
+    
     text-align: center;
-    font-size: 35px;
+    font-size: px;
   }
   /*Logo-sobre la barra de menu*/
   .navbar img{
     width: 30%;
+    display: block;
+    margin: auto;
   }
   .product-title{
 
@@ -219,7 +308,7 @@ nav img{
   }
   /*Categorias*/
   #categories{
-    font-size: 35px;
+    font-size: 30px;
   }
  /*Carrito de compra*/
   #cart{
@@ -247,6 +336,19 @@ nav img{
     width: 100%;
     text-align: center;
     
+  }
+  .informacion{
+    height: 300px;
+  }
+  
+  .informacion h3{
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .informacion p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
   }
 }
 
