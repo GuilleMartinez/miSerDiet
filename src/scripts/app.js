@@ -71,7 +71,8 @@ class App {
 			const amount = item.amount ? `${item.amount} x $${item.price}` : `$${item.price}`;
 			return `
 			<div class="product">
-				<img class="product-img" src="./src/img/product.svg" alt="${product.name}"/>
+				${product.tac == "FALSE" ? '<img class="tac-logo" src="./src/img/iconos/sin_tacc.png" alt="Producto sin tac"/>' : ""}
+				<img class="product-img" src="${product.img_url}" alt="${product.name}"/>
 				<p class="product-title">${product.name}</p>
 				<p class="product-price">${amount}</p>
 				<button class="add-cart-btn" title="Add to cart" value="${item.id}">+</button>
@@ -89,14 +90,17 @@ class App {
 
 		function createHTML(group, array) {
 
-			const container = array.map(category => ` <div>
-			<input class="filter-input" id="${category.id}" value="${category.id}" type="radio" name="filter" > 
-			<label class="filter-label" for="${category.id}"> ${category.name} </label> \n </div>`).join("\n");
+			const container = array.map(category => `<div>
+				<input class="filter-input" id="${category.id}" value="${category.id}" type="radio" name="filter" > 
+				<label class="filter-label" for="${category.id}"> ${category.name} </label> \n 
+			</div>`).join("\n");
 
-			return `<details> 
-						<summary>${group}</summary>
-						${container}
-					</details>
+			return `<li>
+					 	<details class="d-block w-100"> 
+							<summary>${group}</summary>
+							${container}
+						</details>
+					</li>
 					`
 		}
 	}
@@ -107,15 +111,13 @@ class App {
 
 	renderCatalog(list) {
 		const catalog = this.createCatalog(list);
-
 		this._htmlCatalog.innerHTML = "";
 		this._htmlCatalog.classList.add("catalog-grid");
-
+		
 		catalog.map(div => this._htmlCatalog.innerHTML += div);
 	}
 
 	renderFrontCatalog() {
-
 		this._htmlCatalog.innerHTML = "";
 		this._htmlCatalog.classList.remove("catalog-grid");
 		this.categories.map(group => {
@@ -123,7 +125,7 @@ class App {
 			<section id="${group.name}">
 				<h2 class="title">${group.name}</h2>
 				<div class="product-container"> 
-					${this.createCatalog(this.filterCatalog(this.filterByCategory(group.categories[0].id), 3))}
+					${this.createCatalog(this.filterCatalog(this.filterByCategory(group.categories[0].id), 3)).join("\n")}
 				</div>
 			</section>
 		`}

@@ -2,9 +2,9 @@ const number = "0xB14EE0B1";
 
 const LINKS = {
 	categories: "src/json/categorias.json",
-	groups:  "src/json/grupos.json",
+	groups: "src/json/grupos.json",
 	products: "src/json/productos.json",
-	catalog:  "src/json/catalogo.json",
+	catalog: "src/json/catalogo.json",
 }
 
 var app;
@@ -18,9 +18,9 @@ async function getData(url) {
 }
 
 async function prepareData() {
-	const products = await getProducts( {database: LINKS.products } );
-	const categories = await getCategories({categoriesURL: LINKS.categories, groupsURL: LINKS.groups });
-	const catalog = await getCatalog({database: LINKS.catalog } );
+	const products = await getProducts({ database: LINKS.products });
+	const categories = await getCategories({ categoriesURL: LINKS.categories, groupsURL: LINKS.groups });
+	const catalog = await getCatalog({ database: LINKS.catalog });
 
 	app = new App(products, categories, catalog);
 }
@@ -45,6 +45,7 @@ function createApp() {
 	app.categoryContainer.oninput = filterByInput;
 	app.searchBox.oninput = filterBySearch;
 	document.querySelector("#main-container").onclick = setClickEvent;
+	document.querySelector(".hover-dropdown").onmouseleave = closeDetailsEvent;
 
 }
 
@@ -65,7 +66,7 @@ function filterByInput() {
 		app.renderFrontCatalog();
 		app.filtered = false;
 	}
-	
+
 }
 
 function filterBySearch(event) {
@@ -115,6 +116,10 @@ function setClickEvent(event) {
 
 }
 
+function closeDetailsEvent() {
+	const details = [...document.querySelectorAll(".hover-dropdown details[open]")];
+	details.map(tag => tag.open = false);
+}
 
 /* SEND MESSAGE */
 

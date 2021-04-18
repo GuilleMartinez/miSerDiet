@@ -4,2737 +4,3193 @@
             "id": "P0001",
             "name": "Aceite Areco Extra Virgen Envase De Vidrio",
             "category_id": "C00002",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0002",
             "name": "Aceite De Coco Chia Graal Neutro",
             "category_id": "C00001",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0003",
             "name": "Aceite De Coco Chia Graal Neutro En Spray",
             "category_id": "C00001",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0004",
             "name": "Aceite De Coco Chia Graal Virgen",
             "category_id": "C00001",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0005",
             "name": "Aceite De Coco Media Natural Neutro",
             "category_id": "C00001",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0006",
             "name": "Aceite De Higado De Bacalao",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0007",
             "name": "Aceite De Oliva Extra Virgen La Tranquilina En Spray",
             "category_id": "C00002",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0008",
             "name": "Aceite Premium Reino De Leon De Oliva Y Girasol Intenso",
             "category_id": "C00002",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0009",
             "name": "Aceto Balsámico Olivares Del Sol",
             "category_id": "C00003",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0010",
             "name": "Aji Molido Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0011",
             "name": "Ajo Granulado Shio",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0012",
             "name": "Ajo Polvo Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0013",
             "name": "Albumina De Huevo En Polvo",
             "category_id": "C00004",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0014",
             "name": "Alfajor De Arroz Tasty Crunch Sabor Mousse De Dulce De Leche",
             "category_id": "C00005",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0015",
             "name": "Alfajor De Arroz Tasty Crunch Sabor Mousse De Limón ",
             "category_id": "C00005",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0016",
             "name": "Alfajor Marca Ceral Relleno De Dulce De Leche Light Blanco",
             "category_id": "C00005",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0017",
             "name": "Alfajor Marca Ceral Relleno De Dulce De Leche Light Negro",
             "category_id": "C00005",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0018",
             "name": "Alfajor Relleno De Dulce De Leche Vegano Cerro Azul - Sin Azucar",
             "category_id": "C00005",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0019",
             "name": "Alfajor Relleno De Mousse De Choco Vegano Cerro Azul",
             "category_id": "C00005",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0020",
             "name": "Alfajor Relleno De Mousse De Fresa Vegano Cerro Azul - Sin Azucar",
             "category_id": "C00005",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0021",
             "name": "Alfajor Relleno De Mousse De Limon Vegano Cerro Azul",
             "category_id": "C00005",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0022",
             "name": "Almendras Con Chocolate De Leche",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0023",
             "name": "Almendras Non Pareil",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/almendras_1.jpeg"
         },
         {
             "id": "P0024",
             "name": "Almendras Tostadas Y Saladas",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/almendras_2.jpeg"
         },
         {
             "id": "P0025",
             "name": "Almohaditas Rellenas Avellana",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0026",
             "name": "Almohaditas Rellenas De Chocolate",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0027",
             "name": "Almohaditas Rellenas Dos Salvados ",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0028",
             "name": "Almohaditas Rellenas Frutilla",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0029",
             "name": "Almohaditas Rellenas Limon ",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0030",
             "name": "Almohaditas Snuks Rellenas Avellana",
             "category_id": "C00012",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0031",
             "name": "Almohaditas Snuks Rellenas Chocolate",
             "category_id": "C00012",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0032",
             "name": "Almohaditas Snuks Rellenas Frutilla",
             "category_id": "C00012",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0033",
             "name": "Arándano Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0034",
             "name": "Arándanos Con Chocolate ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0035",
             "name": "Arandanos Deshidratados  ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0036",
             "name": "Aritos De Miel",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0037",
             "name": "Aritos Frutados",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0038",
             "name": "Arroz Basmati",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0039",
             "name": "Arroz Integral",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0040",
             "name": "Arroz Koshihikari",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0041",
             "name": "Arroz Yamani Integral",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0042",
             "name": "Avellanas Con Chocolate ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0043",
             "name": "Avellanas Medianas 11/13",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0044",
             "name": "Avellanas Premium",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0045",
             "name": "Avena Gruesa",
             "category_id": "C00006",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0046",
             "name": "Avena Instantánea",
             "category_id": "C00006",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0047",
             "name": "Avena Tradicional",
             "category_id": "C00006",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0048",
             "name": "Azucar De Coco",
             "category_id": "C00007",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0049",
             "name": "Azúcar Impalpable ",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0050",
             "name": "Azucar Mascabo",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0051",
             "name": "Azucar Orgánica Beepure",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0052",
             "name": "Azucar Organica Dicomere",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0053",
             "name": "Balon De Cereal Con Chocolate",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0054",
             "name": "Bananitas Chips ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0055",
             "name": "Baño Repostero Chocolate Blanco",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0056",
             "name": "Baño Repostero Chocolate Con Leche",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0057",
             "name": "Baño Repostero Chocolate Semi Amargo",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0058",
             "name": "Barra De Chocolate Copani 100% Cacao",
             "category_id": "C00013",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/chocolate.jpeg"
         },
         {
             "id": "P0059",
             "name": "Barra De Chocolate Copani 70% Cacao - Con Stevia ",
             "category_id": "C00013",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/chocolate.jpeg"
         },
         {
             "id": "P0060",
             "name": "Barra De Chocolate Copani 80% Cacao Con Almendras",
             "category_id": "C00013",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/chocolate_2.jpeg"
         },
         {
             "id": "P0061",
             "name": "Barra De Chocolate Copani Con Leche De Coco Endulzado - Con Stevia",
             "category_id": "C00013",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/chocolate_2.jpeg"
         },
         {
             "id": "P0062",
             "name": "Barritas Íntegra  Arándanos Y Semilla",
             "category_id": "C00008",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0063",
             "name": "Barritas Íntegra  Chocolate Y Semilla",
             "category_id": "C00008",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0064",
             "name": "Barritas Íntegra Almendra Y Nuez",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0065",
             "name": "Barritas Íntegra Banana Y Nuez",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0066",
             "name": "Barritas Íntegra Pistacho Y Arandanos",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0067",
             "name": "Barritas Íntegra Puro Cacao",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0068",
             "name": "Barritas Laddubar Brownie - Apta Veganos",
             "category_id": "C00008",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0069",
             "name": "Barritas Laddubar Coco - Apta Veganos",
             "category_id": "C00008",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0070",
             "name": "Barritas Laddubar Coco Choco - Apta Veganos",
             "category_id": "C00008",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0071",
             "name": "Bastones De Salvado",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0072",
             "name": "Bolitas De Chocolate",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0073",
             "name": "Budin Integral De Banana Y Chips De Chocolate",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0074",
             "name": "Budin Marmolado Marca Ceral - Sin Azucar",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0075",
             "name": "Cacao Amargo",
             "category_id": "C00009",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0076",
             "name": "Cacao Amargo Alcalino Barry Call Brasilero ",
             "category_id": "C00009",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0077",
             "name": "Cacao Dulce ",
             "category_id": "C00009",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0078",
             "name": "Café En Granos Con Chocolate ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0079",
             "name": "Café Verde Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0080",
             "name": "Caju Natural",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0081",
             "name": "Caju Tostado ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0082",
             "name": "Caju Tostado Y Salado ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0083",
             "name": "Canela En Polvo 100% Pura",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0084",
             "name": "Cartilago De Tiburon 1000",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0085",
             "name": "Cebolla En Escamas Shio",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0086",
             "name": "Cepillo De Diente Meraki De Bambú Cerda Dura",
             "category_id": "C00010",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0087",
             "name": "Cepillo De Diente Meraki De Bambú Cerda Media",
             "category_id": "C00010",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0088",
             "name": "Cepillo De Diente Meraki De Bambú Cerda Para Niños",
             "category_id": "C00010",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0089",
             "name": "Cepillo De Diente Meraki De Bambú Cerda Suave",
             "category_id": "C00010",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0090",
             "name": "Chimichurri Shio",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0091",
             "name": "Chips Batatas Y Papas Alwa",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0092",
             "name": "Chips De Batatas",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0093",
             "name": "Chips De Batatitas",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0094",
             "name": "Chips De Papas",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0095",
             "name": "Chips De Papas Con Pimienta",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0096",
             "name": "Chips De Remolachitas",
             "category_id": "C00044",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0097",
             "name": "Ciruelas Dágen Rosali Sin Carozo",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0098",
             "name": "Ciruelas Presidente Medianas",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0099",
             "name": "Coco En Escamas",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0100",
             "name": "Coco Rallado",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0101",
             "name": "Colageno Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0102",
             "name": "Colageno Hidrolizado Sabor Frutos Rojos",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0103",
             "name": "Controller (Bloqueador Carbohidrato) Frasco (Simil Satial)",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0104",
             "name": "Controller (Bloqueador Carbohidrato) Polvo Fraco (Simil Satial)",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0105",
             "name": "Copos De Maiz Azucarados ",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0106",
             "name": "Copos De Maiz Natural - Sin Azucar",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0107",
             "name": "Crakines Galletitas De Arroz ",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0108",
             "name": "Curcuma Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0109",
             "name": "Curry Shio",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0110",
             "name": "Datiles Economicos Iran",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0111",
             "name": "Datiles Tiernizados Argelia",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0112",
             "name": "Delicel Galletitas Chocolate",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0113",
             "name": "Delicel Galletitas Coco",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0114",
             "name": "Delicel Galletitas Limon",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0115",
             "name": "Delicel Galletitas Naranja",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0116",
             "name": "Delicel Galletitas Pepas Membrillo",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0117",
             "name": "Delicel Galletitas Vainilla&Chips",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0118",
             "name": "Dips De Arroz Horneados Molinos Ala",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0119",
             "name": "Dulce De Leche Beepure - Sin Azucar",
             "category_id": "C00015",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/dulce_de_leche.jpeg"
         },
         {
             "id": "P0120",
             "name": "Dulce De Leche Beepure Clasico",
             "category_id": "C00015",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/dulce_de_leche.jpeg"
         },
         {
             "id": "P0121",
             "name": "Dulce De Leche Coco Vegan Doña Magdalena",
             "category_id": "C00015",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/dulce_de_leche.jpeg"
         },
         {
             "id": "P0122",
             "name": "Dulce De Leche Dona Magdalena Splenda - Sin Azucar",
             "category_id": "C00015",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/dulce_de_leche.jpeg"
         },
         {
             "id": "P0123",
             "name": "Dulce De Leche Dona Magdalena Stevia - Sin Azucar ",
             "category_id": "C00015",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/dulce_de_leche.jpeg"
         },
         {
             "id": "P0124",
             "name": "Eritritol 100% Puro Doypack",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0125",
             "name": "Esencia De Vainilla Coventry",
             "category_id": "C00016",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0126",
             "name": "Extracto De Vainilla El Castillo",
             "category_id": "C00016",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0127",
             "name": "Fécula De Maiz",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0128",
             "name": "Fécula De Mandioca",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0129",
             "name": "Fideos Soyarroz Espinaca",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0130",
             "name": "Fideos Soyarroz Fino",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0131",
             "name": "Fideos Soyarroz Integral",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0132",
             "name": "Fideos Soyarroz Maiz",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0133",
             "name": "Fideos Soyarroz Morron",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0134",
             "name": "Fideos Soyarroz Tradicional",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0135",
             "name": "Galletas De Arroz Bañadas Chocolate Blanco",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0136",
             "name": "Galletas De Arroz Bañadas Chocolate Negro",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0137",
             "name": "Galletas De Arroz Bañadas Dulce De Leche",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0138",
             "name": "Galletitas Beepure Integrales Almendra Y Naranja",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0139",
             "name": "Galletitas Beepure Integrales Chocoblue",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0140",
             "name": "Galletitas Beepure Integrales Chocobomb",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0141",
             "name": "Galletitas Beepure Integrales Ginger Cookie",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0142",
             "name": "Galletitas Ceral Endulzadas Algarroba - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0143",
             "name": "Galletitas Ceral Endulzadas Coco - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0144",
             "name": "Galletitas Ceral Endulzadas Limon - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0145",
             "name": "Galletitas Ceral Endulzadas Naranja - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0146",
             "name": "Galletitas Ceral Endulzadas Teisty - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0147",
             "name": "Galletitas Ceral Endulzadas Vainilla Y Miel - Con Stevia ",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0148",
             "name": "Galletitas Íntegra Almendra Y Miel",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0149",
             "name": "Galletitas Íntegra Chocolate Y Avellana",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0150",
             "name": "Galletitas Íntegra Limon Y Amapola",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0151",
             "name": "Galletitas Integrales Marca Ceral Coco - Apta Veganos",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0152",
             "name": "Galletitas Integrales Marca Ceral Limon - Apta Veganos",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0153",
             "name": "Galletitas Integrales Marca Ceral Naranaja - Apta Veganos",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0154",
             "name": "Galletitas Integralia Anillos Avena Y Coco",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0155",
             "name": "Galletitas Integralia Anillos Avena Y Limon",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0156",
             "name": "Galletitas Integralia Anillos Cacao Y Narnaja",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0157",
             "name": "Galletitas Integralia Anillos Salvado Y Limon",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0158",
             "name": "Galletitas Integralia Diabest Choco Y Avena",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0159",
             "name": "Galletitas Integralia Diabest Coco Y Avena",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0160",
             "name": "Galletitas Integralia Diabest Limon Y Avena",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0161",
             "name": "Galletitas Integralia Pepas Y Scons",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0162",
             "name": "Galletitas Zafran Algarroba Pasas Y Girasol",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0163",
             "name": "Galletitas Zafran Avena Coco Y Lino",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0164",
             "name": "Galletitas Zafran Avena Pasas Y Chia",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0165",
             "name": "Galletitas Zafran Coco Mani Y Café",
             "category_id": "C00022",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0166",
             "name": "Garbanzos",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0167",
             "name": "Garbanzos Tostados Fitbeans Jamon Ahumado",
             "category_id": "C00044",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0168",
             "name": "Garbanzos Tostados Fitbeans Queso",
             "category_id": "C00044",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0169",
             "name": "Garbanzos Tostados Fitbeans Sal Marina",
             "category_id": "C00044",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0170",
             "name": "Ginkgo Bilboa + Magnesio Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0171",
             "name": "Ginseng + Magnesio Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0172",
             "name": "Goma Xántica",
             "category_id": "C00024",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0173",
             "name": "Gotitas (Chips) De Choco Blanco ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0174",
             "name": "Gotitas (Chips) De Choco Negro ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0175",
             "name": "Granola Archimboldo Crocante Con Semillas",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0176",
             "name": "Granola Archimboldo Energetica",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0177",
             "name": "Granola Archimboldo Frutos Seleccionados",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0178",
             "name": "Granola Archimboldo Natural",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0179",
             "name": "Granola Archimboldo Naturalmente Crocante",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0180",
             "name": "Granola Archimboldo Tropical",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0181",
             "name": "Granola Íntegra (Avena, Almendras Y Miel / Chocolate)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0182",
             "name": "Granola Kos Berries ( Avena Natural- Arandanos- Pasas- Almendras- Copos De Maiz- Endulzante)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0183",
             "name": "Granola Kos Energy (Almendras- Miel- Pasas- Mani -Avena Tostada)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0184",
             "name": "Granola Kos Live (Manzana- Girasol- Endulzante Natural - Copos De Maiz- Avena Tostada)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0185",
             "name": "Granola Kos Tradicional (Avena Tostada -Mani-Quinoa Inflada-Copos Maiz-Girasol-Almendra)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0186",
             "name": "Granola Kos Tropical (Banana Chips- Avena Tostada -Pasas- Manzana- Almendras Y Pomelo)",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0187",
             "name": "Granola Premium",
             "category_id": "C00025",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0188",
             "name": "Harina De Algarroba Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0189",
             "name": "Harina De Algarroba Dicomere - Sin Tac",
             "category_id": "C00027",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0190",
             "name": "Harina De Almendras",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0191",
             "name": "Harina De Almendras Dicomere",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0192",
             "name": "Harina De Arroz",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0193",
             "name": "Harina De Arroz Integral Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0194",
             "name": "Harina De Caju Dicomere",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0195",
             "name": "Harina De Centeno Extrafina Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0196",
             "name": "Harina De Coco",
             "category_id": "C00027",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0197",
             "name": "Harina De Coco Dicomere",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0198",
             "name": "Harina De Garbanzo Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0199",
             "name": "Harina De Quinoa",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0200",
             "name": "Harina De Trigo Integral Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0201",
             "name": "Harina Integral Fina A Granel",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/harina_integral.jpeg"
         },
         {
             "id": "P0202",
             "name": "Harina Integral Organica  Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/harina_integral.jpeg"
         },
         {
             "id": "P0203",
             "name": "Harina Para Arepas El Cosaco",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0204",
             "name": "Humo Sólido Shio",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0205",
             "name": "Jengibre En Polvo",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0206",
             "name": "Jugo Pura Fruta 100% Exprimido De Manzana Roja",
             "category_id": "C00028",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0207",
             "name": "Jugo Pura Fruta 100% Exprimido De Manzana Verde",
             "category_id": "C00028",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0208",
             "name": "Jugo Pura Fruta 100% Exprimido Naranja",
             "category_id": "C00028",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0209",
             "name": "Kony Stevia",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0210",
             "name": "Kony Stevia En Polvo",
             "category_id": "C00007",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0211",
             "name": "Leche De Almendras Con Chocolate Tratenfu",
             "category_id": "C00029",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/leche_almendra.jpeg"
         },
         {
             "id": "P0212",
             "name": "Leche De Almendras Con Coco Tratenfu",
             "category_id": "C00029",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/leche_almendra.jpeg"
         },
         {
             "id": "P0213",
             "name": "Leche De Almendras Con Vainilla Tratenfu",
             "category_id": "C00029",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/leche_almendra.jpeg"
         },
         {
             "id": "P0214",
             "name": "Leche De Almendras Pampa Vida - Sin Azucar ",
             "category_id": "C00029",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/leche_almendra.jpeg"
         },
         {
             "id": "P0215",
             "name": "Leche De Almendras Tratenfu Original",
             "category_id": "C00029",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/leche_almendra.jpeg"
         },
         {
             "id": "P0216",
             "name": "Leche De Coco Dale Coco",
             "category_id": "C00029",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0217",
             "name": "Leche De Coco En Polvo Doypack Dicomere",
             "category_id": "C00029",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0218",
             "name": "Legume High Protein",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0219",
             "name": "Legume Pasta Arveja",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0220",
             "name": "Legume Pasta Garbanzo",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0221",
             "name": "Legume Pasta Lenteja",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0222",
             "name": "Legume Pasta Poroto Negro",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0223",
             "name": "Legume Pasta Poroto Rojo",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0224",
             "name": "Lenteja Roja Turca",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0225",
             "name": "Lentejas",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0226",
             "name": "Lentejas Con Chocolate",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0227",
             "name": "Lentejon",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0228",
             "name": "Levadura Levex (2 Sobres De 10 Grs C/U)",
             "category_id": "C00030",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0229",
             "name": "Levadura Virgen Nutrileva Natural",
             "category_id": "C00030",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0230",
             "name": "Levadura Virgen Nutrileva Sabor Manzana",
             "category_id": "C00030",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0231",
             "name": "Levadura Virgen Nutrileva Sabor Queso",
             "category_id": "C00030",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0232",
             "name": "Maca Kallpa",
             "category_id": "C00031",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0233",
             "name": "Magnesio 400 Goldfish En Comprimidos",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0234",
             "name": "Maiz Blanco",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0235",
             "name": "Maiz Frito Tostado Sabor: Barbacoa/ Mostaza",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0236",
             "name": "Maiz Frito Tostado Sabor: Miel/ Queso",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0237",
             "name": "Maiz Frito Tostado Tradicional",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0238",
             "name": "Maiz Pisingallo",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0239",
             "name": "Mani Con Chocolate ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0240",
             "name": "Mani Tostado Con Sal ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0241",
             "name": "Mani Tostado Pelado Sin Sal ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0242",
             "name": "Manteca Clarificada Ghee Beepure",
             "category_id": "C00032",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0243",
             "name": "Manteca Clarificada Ghee Doña Magdalena",
             "category_id": "C00032",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0244",
             "name": "Mantequilla De Mani Dulce De Leche Fit Fruits",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0245",
             "name": "Mantequilla De Mani Fit Fruits - Sin Azucar",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0246",
             "name": "Mantequilla De Mani Le-Fit - Con Stevia",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0247",
             "name": "Mantequilla De Mani Le-Fit Con Chocolate",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0248",
             "name": "Mantequilla De Mani Le-Fit Con Coco",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0249",
             "name": "Mantequilla De Mani Le-Fit Con Cookies",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0250",
             "name": "Mantequilla De Mani Le-Fit Con Vainilla",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0251",
             "name": "Mantequilla De Mani Le-Fit Cream",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0252",
             "name": "Mantequilla De Mani Le-Fit Crunchy",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0253",
             "name": "Mantequilla De Mani Le-Fit Natural",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0254",
             "name": "Mantequilla De Mani Nina'S - Sin Azucar",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0255",
             "name": "Mantequilla De Mani Oddis",
             "category_id": "C00033",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0256",
             "name": "Medallón De Durazno Mediano Premium ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0257",
             "name": "Mermelada Beepure Arandanos - Sin Azucar ",
             "category_id": "C00034",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/mermelada_arandano.jpeg"
         },
         {
             "id": "P0258",
             "name": "Mermelada Beepure Clasica Arandanos",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mermeladas.jpeg"
         },
         {
             "id": "P0259",
             "name": "Mermelada Beepure Clasica Frambuesa",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mermeladas.jpeg"
         },
         {
             "id": "P0260",
             "name": "Mermelada Beepure Clasica Frutilla",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mermeladas.jpeg"
         },
         {
             "id": "P0261",
             "name": "Mermelada Beepure Clasica Frutos Del Bosque",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mermeladas.jpeg"
         },
         {
             "id": "P0262",
             "name": "Mermelada Beepure Frutilla - Sin Azucar",
             "category_id": "C00034",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/mermeladas.jpeg"
         },
         {
             "id": "P0263",
             "name": "Mermelada Doña Magdalena Arandanos - Con Stevia",
             "category_id": "C00034",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0264",
             "name": "Mermelada Doña Magdalena Frutilla - Con Stevia",
             "category_id": "C00034",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0265",
             "name": "Mermelada Doña Magdalena Frutos Rojos - Con Stevia",
             "category_id": "C00034",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0266",
             "name": "Mermelada Tranquilina Arándanos - Sin Azucar",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0267",
             "name": "Mermelada Tranquilina Ciruela - Sin Azucar ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0268",
             "name": "Mermelada Tranquilina Durazno - Sin Azucar ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0269",
             "name": "Mermelada Tranquilina Frutilla - Sin Azucar",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0270",
             "name": "Mermelada Tranquilina Frutos Del Bosque - Sin Azucar ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0271",
             "name": "Mermelada Tranquilina Naranja - Sin Azucar",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0272",
             "name": "Mermeladas Cuarto Creciente Arándanos - Con Stevia ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0273",
             "name": "Mermeladas Cuarto Creciente Ciruela - Con Stevia ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0274",
             "name": "Mermeladas Cuarto Creciente Durazno - Con Stevia ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0275",
             "name": "Mermeladas Cuarto Creciente Frutilla - Con Stevia",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0276",
             "name": "Mermeladas Cuarto Creciente Frutos Rojos - Con Stevia ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0277",
             "name": "Mermeladas Cuarto Creciente Higo - Con Stevia ",
             "category_id": "C00034",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0278",
             "name": "Miel Cremosa Nectar De Los Dioses",
             "category_id": "C00035",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0279",
             "name": "Miel Cremosa Premium Beepure",
             "category_id": "C00035",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0280",
             "name": "Miel Líquida Nectar De Los Dioses",
             "category_id": "C00035",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0281",
             "name": "Miel Liquida Premium Beepure",
             "category_id": "C00035",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0282",
             "name": "Mix De Semillas (Lino-Girsaol-Chia-Mijo-Sesamo-Quinoa)",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0283",
             "name": "Mix Energía (Pasas Negras, Pasas Rubias, Almendras, Nueces, Maní Sin Sal, Bananitas)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_1.jpeg"
         },
         {
             "id": "P0284",
             "name": "Mix Griego (Pasas Rubias, Arandanos, Almendras, Caju)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_2.jpeg"
         },
         {
             "id": "P0285",
             "name": "Mix Happy (Pasas Negras, Pasas Rubias, Almendras, Nueces, Mani Sin Sal)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_3.jpeg"
         },
         {
             "id": "P0286",
             "name": "Mix Premium (Almendras, Nueces, Avellanas, Cajú)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_4.jpeg"
         },
         {
             "id": "P0287",
             "name": "Mix Premium Con Mani  (Almendras, Nueces, Avellanas, Cajú, Maní)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_1.jpeg"
         },
         {
             "id": "P0288",
             "name": "Mix Salado (Sésamo, Maní Salado, Semillas De Zapallo, Maiz Frito, Almendras Tostadas Y Saladas)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_2.jpeg"
         },
         {
             "id": "P0289",
             "name": "Mix Tradicional Sin Mani (Pasas Negras, Pasas Rubias, Almendras, Cajú Y Nueces)",
             "category_id": "C00036",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/mix_frutos_3.jpeg"
         },
         {
             "id": "P0290",
             "name": "Muecas Arandanos Y Pasas",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0291",
             "name": "Muecas Banana Y Dulce De Leche",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0292",
             "name": "Muecas Coco",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0293",
             "name": "Muecas Manzana ",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0294",
             "name": "Muecas Pasas",
             "category_id": "C00008",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0295",
             "name": "Nina Galletitas Bizcochitos De Oliva",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas_2.jpeg"
         },
         {
             "id": "P0296",
             "name": "Nina Galletitas Blondies Sugar Free",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas.jpeg"
         },
         {
             "id": "P0297",
             "name": "Nina Galletitas Chocochip",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas.jpeg"
         },
         {
             "id": "P0298",
             "name": "Nina Galletitas Chocolate Bliss",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas_2.jpeg"
         },
         {
             "id": "P0299",
             "name": "Nina Galletitas Cranberry",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas.jpeg"
         },
         {
             "id": "P0300",
             "name": "Nina Galletitas Lemon & Ginger",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/galletitas_2.jpeg"
         },
         {
             "id": "P0301",
             "name": "Nueces Mariposa Chandler Extra Light",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0302",
             "name": "Nueces Pecan",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0303",
             "name": "Oregano Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0304",
             "name": "Pan Integral Con Semillas",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0305",
             "name": "Pan Rallado Japonés",
             "category_id": "C00040",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0306",
             "name": "Pasa De Uva Con Chocolate ",
             "category_id": "C00014",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0307",
             "name": "Pasas De Uva Morochas Flame Premium ",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0308",
             "name": "Pasas De Uva Rubias",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0309",
             "name": "Pasas Jumbo Morochas Premium",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0310",
             "name": "Perejil Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0311",
             "name": "Pimenton Ahumado Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0312",
             "name": "Pimenton Ahumado Shio",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0313",
             "name": "Pimenton Dulce Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0314",
             "name": "Pimienta Blanca En Grano Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0315",
             "name": "Pimienta Blanca Molida Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0316",
             "name": "Pimienta Negra En Grano Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0317",
             "name": "Pimienta Negra Molida Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0318",
             "name": "Pistacho",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0319",
             "name": "Pizza Integral De Muzzarella",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0320",
             "name": "Pizzas Integrales Especiales Calabresa",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0321",
             "name": "Pizzas Integrales Especiales Cebolla",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0322",
             "name": "Pizzas Integrales Especiales Cebolla De Verdeo",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0323",
             "name": "Pizzas Integrales Especiales Huevo",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0324",
             "name": "Pizzas Integrales Especiales Jamon Y Morrón",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0325",
             "name": "Pizzas Integrales Especiales Roquefort",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0326",
             "name": "Pizzas Integrales Especiales Tomate",
             "category_id": "C00038",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0327",
             "name": "Polen Con Zinc Y Vit \"C\" En Capsulas",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0328",
             "name": "Polvo De Hornear",
             "category_id": "C00037",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0329",
             "name": "Polvo De Hornear - Sin Tac",
             "category_id": "C00037",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0330",
             "name": "Poroto Colorado",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0331",
             "name": "Porotos Adzuki",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0332",
             "name": "Porotos Alubia",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0333",
             "name": "Porotos Cranberrys",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0334",
             "name": "Porotos Mung",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0335",
             "name": "Porotos Negros",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0336",
             "name": "Porotos Pallares Grandes",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0337",
             "name": "Premezcla Delicel Bizcochuelo Chocolate",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0338",
             "name": "Premezcla Delicel Bizcochuelo Vainilla",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0339",
             "name": "Premezcla Delicel Ñoquis",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0340",
             "name": "Premezcla Delicel Pan",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0341",
             "name": "Premezcla Delicel Pizza",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0342",
             "name": "Premezcla Delicel Universal",
             "category_id": "C00027",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0343",
             "name": "Provenzal Dicomere Sobre",
             "category_id": "C00017",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0344",
             "name": "Psyllium Suplemento Dietario En Polvo. Sabor Naranja",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0345",
             "name": "Queso Vegano Tipo Parmesano",
             "category_id": "C00039",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0346",
             "name": "Quinoa ",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0347",
             "name": "Quinoa Pop",
             "category_id": "C00011",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0348",
             "name": "Rebozador De Arroz Deluxe",
             "category_id": "C00040",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0349",
             "name": "Sal Himalaya Premium",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0350",
             "name": "Sal Marina Cebolla & Ajo Shio",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0351",
             "name": "Sal Marina Fina",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0352",
             "name": "Sal Marina Gruesa",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0353",
             "name": "Sal Marina Hierbas Finas Shio",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0354",
             "name": "Sal Marina Hongos & Trufas Shio",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0355",
             "name": "Sal Shio Barbacoa",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0356",
             "name": "Sal Shio Cilantro, Tomillo & Estragon",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0357",
             "name": "Sal Shio Curry & Sesamo",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0358",
             "name": "Sal Shio Hierbas",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0359",
             "name": "Sal Shio Hongos & Trufa",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0360",
             "name": "Sal Shio Jengibre & Ajo",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0361",
             "name": "Sal Shio Paprika & Curcuma",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0362",
             "name": "Sal Shio Pimenton Ahumado & Aji Cayena",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0363",
             "name": "Sal Shio Romero & Mostaza",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0364",
             "name": "Sal Shio Tomate Asado",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0365",
             "name": "Salsa De Soja Bitarwan Tradicional",
             "category_id": "C00042",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/salsa_de_soja.jpeg"
         },
         {
             "id": "P0366",
             "name": "Salusin Sin Sodio Carnes Rojas",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0367",
             "name": "Salusin Sin Sodio Clásica ",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0368",
             "name": "Salusin Sin Sodio Hierbas",
             "category_id": "C00041",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0369",
             "name": "Salvado De Avena",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0370",
             "name": "Satial Controller",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0371",
             "name": "Satial Food Carb Controller En Polvo",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0372",
             "name": "Semilla Chia",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0373",
             "name": "Semilla De Amapola",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0374",
             "name": "Semilla Girasol Pelada",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0375",
             "name": "Semilla Lino",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0376",
             "name": "Semillas De Amaranto",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0377",
             "name": "Semillas De Zapallo",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0378",
             "name": "Semillas De Zapallo Tostadas Y Saladas",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0379",
             "name": "Semola De Trigo Candeal Fina Dicomere",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0380",
             "name": "Sesamo Blanco ",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0381",
             "name": "Sesamo Integral",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0382",
             "name": "Sesamo Negro ",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0383",
             "name": "Smams Biscuits",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0384",
             "name": "Smams Bizcochos Agridulces Azucarados",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0385",
             "name": "Smams Budin Chips De Choco - Kosher",
             "category_id": "C00023",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0386",
             "name": "Smams Budin Marmolado - Kosher",
             "category_id": "C00023",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0387",
             "name": "Smams Budin Vainilla - Kosher",
             "category_id": "C00023",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0388",
             "name": "Smams Choco Bolsa",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0389",
             "name": "Smams Crackers Clasicas",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0390",
             "name": "Smams Crackers Con Semillas",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0391",
             "name": "Smams Crackers Sin Sal",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0392",
             "name": "Smams Galletitas Chips Chocolate Negro En Bolsa ",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0393",
             "name": "Smams Galletitas Rellenas Chocolate",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0394",
             "name": "Smams Galletitas Rellenas Frutilla",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0395",
             "name": "Smams Galletitas Rellenas Vainilla",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0396",
             "name": "Smams Polvoron Coco",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0397",
             "name": "Smams Polvoron Limon",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0398",
             "name": "Smams Polvoron Vainilla",
             "category_id": "C00023",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0399",
             "name": "Soja Texturizada",
             "category_id": "C00026",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0400",
             "name": "Spirulina Max Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0401",
             "name": "Spirulina Polvo Goldfish",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0402",
             "name": "Stevia Jual En Polvo",
             "category_id": "C00007",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0403",
             "name": "Stevia Jual Liquido",
             "category_id": "C00007",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0404",
             "name": "Tableta Chocolate Para Taza",
             "category_id": "C00013",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0405",
             "name": "Tableta De Chocolate Colonial 55% Cacao - Sin Azucar ",
             "category_id": "C00013",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0406",
             "name": "Tableta De Chocolate Colonial 70% Cacao - Con Stevia",
             "category_id": "C00013",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0407",
             "name": "Te  Meditacion",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0408",
             "name": "Te Heredia Manzanilla",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0409",
             "name": "Te Jengibre",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0410",
             "name": "Te Matcha",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0411",
             "name": "Te Negro Heredia",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0412",
             "name": "Te Noche",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0413",
             "name": "Te Surtido Bienestar",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0414",
             "name": "Te Surtido Clasico",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0415",
             "name": "Te Verde",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0416",
             "name": "Te Verde Con Limon Y Naranja",
             "category_id": "C00045",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/te.jpeg"
         },
         {
             "id": "P0417",
             "name": "Tintura Madre Compuesta N° 305 - Arandano, Stevia, Canela Y Bardana Con Niacina",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0418",
             "name": "Tintura Madre N° 112 - Equinacea",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0419",
             "name": "Tintura Madre N° 132 - Rompepiedras",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0420",
             "name": "Tintura Madre N° 139 - Arándano",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0421",
             "name": "Tintura Madre N° 154 - Cardo Mariano",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0422",
             "name": "Tintura Madre N° 168 - Curcuma",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0423",
             "name": "Tintura Madre N° 21 - Ambay",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0424",
             "name": "Tintura Madre N° 27 - Carqueja",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0425",
             "name": "Tintura Madre N° 30 - Cola De Caballo",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0426",
             "name": "Tintura Madre N° 36 - Ginkgo Biloba",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0427",
             "name": "Tintura Madre N° 43 - Melisa",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0428",
             "name": "Tintura Madre N° 46 - Pasionaria",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0429",
             "name": "Tintura Madre N° 55 - Tilo",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0430",
             "name": "Tintura Madre N° 57 - Valeriana",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0431",
             "name": "Tintura Madre N° 88 - Amargon",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0432",
             "name": "Tomate Seco Grandes",
             "category_id": "C00020",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0433",
             "name": "Tostadas De Arroz Molinos Ala Comunes",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0434",
             "name": "Tostadas De Arroz Molinos Ala Integral - Sin Sal",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0435",
             "name": "Tostadas De Arroz Molinos Ala Integrales",
             "category_id": "C00021",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0436",
             "name": "Trigo Burgol Fino",
             "category_id": "C00043",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0437",
             "name": "Vitamina B-12",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0438",
             "name": "Vitamina C Capsulas",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0439",
             "name": "Vitamina D + K",
             "category_id": "C00018",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "./src/img/tinified/product.svg"
         },
         {
             "id": "P0440",
             "name": "Wakas Legumbres Arveja & Chia",
             "category_id": "C00019",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0441",
             "name": "Wakas Legumbres Garbanzo & Chia",
             "category_id": "C00019",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0442",
             "name": "Wakas Legumbres Lenteja & Chia",
             "category_id": "C00019",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0443",
             "name": "Wakas Legumbres Poroto & Chia",
             "category_id": "C00019",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0444",
             "name": "Wakas Multicereal Amaranto",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0445",
             "name": "Wakas Multicereal Chia",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0446",
             "name": "Wakas Multicereal Kale",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0447",
             "name": "Wakas Multicereal Maiz",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0448",
             "name": "Wakas Multicereal Quinoa ",
             "category_id": "C00019",
-            "tac": "FALSE"
+            "tac": "FALSE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0449",
             "name": "Yerba Mate Verdeflor Boldo",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0450",
             "name": "Yerba Mate Verdeflor Cedron",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0451",
             "name": "Yerba Mate Verdeflor Hierbas Serranas",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0452",
             "name": "Yerba Mate Verdeflor Menta",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0453",
             "name": "Yerba Mate Verdeflor Naranja ",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0454",
             "name": "Yerba Orgánica Roapipó Hierbas Naturales",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0455",
             "name": "Yerba Orgánica Roapipó Suave",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         },
         {
             "id": "P0456",
             "name": "Yerba Orgánica Roapipó Tradicional",
             "category_id": "C00046",
-            "tac": "TRUE"
+            "tac": "TRUE",
+            "img_url": "src/img/tinified/product.svg"
         }
     ]
 }

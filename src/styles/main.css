@@ -8,7 +8,17 @@
   font-size: smaller;
 }
 
+.tac-logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+}
+
 .product {
+  position: relative;
   margin-bottom: 30px;
   width: 400px;
   height: 300px;
@@ -24,27 +34,41 @@
 
 .product-img {
   width: 200px;
-  height: 200px;
-  
-}
-#categories {
-  overflow-y: scroll;
-  top: 0;
-  transition: left 0.2s ease;
-  width: 350px;
-  background-color: white;
-  padding: 10px;
-  
-}
-#categories-list{
-  text-decoration: none;
-  color: black;
-}
-#categories .filter-input {
-  display: inline;
+  height: auto;  
 }
 
-#categories .filter-input:checked + .filter-label {
+
+.hover-dropdown {
+  position: relative;
+}
+
+#categories-list {
+  display: none;
+}
+
+.hover-dropdown:hover #categories-list {
+  position: absolute;
+  top: 100%;
+  z-index: 1024;
+  display: block;
+  width: max-content;
+  padding: 20px;
+  background-color: #f8f9fa;
+  list-style: none;
+}
+
+.filter-input {
+  display: none;
+}
+
+.filter-label {
+  display: block;
+  width: 100%;
+  padding: 2.5px;
+  text-align: center;
+}
+
+.filter-input:checked + .filter-label {
   background-color: burlywood;
 }
 
@@ -63,7 +87,7 @@
 .add-cart-btn {
   width: 45px;
   height: 35px;
-  background-image: url(../img/cart.svg);
+  background-image: url(../img/iconos/cart.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
