@@ -36,7 +36,6 @@
   width: 200px;
   height: auto;  
 }
-<<<<<<< HEAD
 
 
 .hover-dropdown {
@@ -45,25 +44,6 @@
 
 #categories-list {
   display: none;
-=======
-#categories {
-  overflow-y: scroll;
-  top: 0;
-  transition: left 0.2s ease;
-  width: 350px;
-  background-color:  white ;
-  padding: 20px;
- 
-  
-}
-#categories-list{
-  text-decoration: none;
-  color: #809589 ;
-  padding: 10px;
-
-  
-  
->>>>>>> 152ed92f06578c81e6cd1edaf7afe7864737f98c
 }
 
 .hover-dropdown:hover #categories-list {
@@ -88,14 +68,8 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
 .filter-input:checked + .filter-label {
   background-color: burlywood;
-=======
-#categories .filter-input:checked + .filter-label {
-  background-color: white;
-  border:1px solid red;
->>>>>>> 152ed92f06578c81e6cd1edaf7afe7864737f98c
 }
 
 #categories:target {
