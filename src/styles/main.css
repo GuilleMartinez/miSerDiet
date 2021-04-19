@@ -44,6 +44,7 @@
 
 #categories-list {
   display: none;
+
 }
 
 .hover-dropdown:hover #categories-list {
@@ -55,6 +56,13 @@
   padding: 20px;
   background-color: #f8f9fa;
   list-style: none;
+  text-align: left;
+  
+}
+/*Barra desplegable menu*/
+summary{
+  padding: 25px;
+  border-bottom: 1px solid #809589;
 }
 
 .filter-input {
@@ -69,11 +77,12 @@
 }
 
 .filter-input:checked + .filter-label {
-  background-color: burlywood;
+  background-color:#809589;
 }
 
 #categories:target {
   left: 0;
+  
 }
 
 .title {
@@ -240,15 +249,78 @@ aside p{
   margin: auto;
   text-align: left;
   font-family: roboto;
+  font-size: 16px;
+  padding: 15px;
 }
-.sobremiserdiet{
-  font-family: Noto serif;
+/*Titulo de sobre mi ser diet*/
+.titulodesecciones{
+  font-family:fantasy;
   text-align: center;
   font-size: 45px;
   margin: 20px;
   padding: 20px;
   color: #42596B;
 }
+
+section img{
+
+  margin-bottom: 30px;
+}
+
+
+.contactoyenvios h2{
+  color: #809589;
+  padding: 10px;
+}
+
+.contactoyenvios p{
+  color: #42596B;
+  padding: 10px;
+}
+
+/*imagenes de venta y contactos*/
+.imagenes-ventaycontacto{
+  padding: 30px;
+  margin: 30px;
+  background-color:#E0D7D7;
+}
+
+.imagenes-ventaycontacto{
+  width: 100%;
+}
+
+.recetas{
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+  margin: 20px;
+  grid-gap: 30px;
+}
+
+.recetas img{
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.recetas h4{
+  text-align: center;
+  color: #42596B;
+  font-size: 22px ;
+}
+
+.recetas button{
+  width: 160px;
+  padding: 20px;
+  margin: 10px;
+  
+}
+
+.recetasdos p{
+  margin: 20px;
+}
+
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
   
