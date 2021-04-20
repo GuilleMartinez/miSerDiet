@@ -44,7 +44,7 @@
 
 #categories-list {
   display: none;
-
+  
 }
 
 .hover-dropdown:hover #categories-list {
@@ -87,6 +87,8 @@ summary{
 
 .title {
   text-align: center;
+  font-family: roboto;
+  color: #42596B;
 }
 
 #products {
@@ -142,13 +144,17 @@ summary{
 }
 
 #cart {
-  width: 100%;
+  width: 340px;
   position: fixed;
   top: 10%;
   right: 0;
   visibility: hidden;
   opacity: 0;
   background-color: white;
+}
+#cart a{
+  text-decoration: none;
+  color: white;
 }
 
 #cart:target {
@@ -179,7 +185,7 @@ main {
 /*Carousel-items*/
 .carousel-item{
   width: 100%;
- 
+  
 }
 
 
@@ -191,9 +197,9 @@ nav img{
 }
 
 .nav-item{
-  
-  margin: 10px;
-  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
   text-align: center;
   
 }
@@ -213,24 +219,36 @@ nav img{
 
 .contacto h3{
   font-size: 20px;
-
+  
 }
 
 .contacto p{
   text-align: center;
 }
 
-a{
+/*Volver*/
+
+.volver{
+  text-align: left;
+  padding:20px;
+  font-family: roboto;
+}
+.volver a{
   text-decoration: none;
-  color: black;
+  color: #F0A54A;
+  padding:0;
+}
+.volver a:hover{
+  text-decoration: none;
+  color: #F0A54A;
 }
 
 /*Informacion debajo de carousel*/
 .informacion{
   background-color: #809589 ;
-  font-size: 10px;
+  font-size: 16px;
   color: white;
-  font-family: monospace;
+  font-family: roboto;
   height: 250px;
   text-align: center;
   padding-top: 30px;
@@ -244,14 +262,20 @@ a{
   font-size: 14px;
   text-align: center;
 }
+/*texto sobre mi ser diet*/
 aside p{
   color: #42596B;
-  margin: auto;
   text-align: left;
   font-family: roboto;
   font-size: 16px;
   padding: 15px;
 }
+
+.ventamayorista{
+  margin: 20px;
+  padding: 20px;
+}
+
 /*Titulo de sobre mi ser diet*/
 .titulodesecciones{
   font-family:fantasy;
@@ -262,19 +286,16 @@ aside p{
   color: #42596B;
 }
 
-section img{
-
-  margin-bottom: 30px;
-}
-
 
 .contactoyenvios h2{
   color: #809589;
   padding: 10px;
+  font-family: serif;
 }
 
 .contactoyenvios p{
   color: #42596B;
+  font-family: roboto;
   padding: 10px;
 }
 
@@ -290,7 +311,7 @@ section img{
 }
 
 .recetas{
- 
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 30px;
@@ -308,6 +329,7 @@ section img{
   text-align: center;
   color: #42596B;
   font-size: 22px ;
+  font-family: roboto;
 }
 
 .recetas button{
@@ -323,79 +345,29 @@ section img{
 
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
-  
-  /*Barra de navegacion*/
-  .navbar-nav{
-    
-    text-align: center;
-    font-size: px;
-  }
-  /*Logo-sobre la barra de menu*/
-  .navbar img{
-    width: 30%;
-    display: block;
-    margin: auto;
-  }
-  .product-title{
 
-    font-size: 28px;
-    text-align: center;
-    padding: 10px;
-  }
-  .product-price{
-    font-size: 28px;
-    text-align: center;
-  }
-  
-  .title{
-    text-align: center;
-    font-size: 50px;
-    padding: 60px;
-  }
-  /*Categorias*/
-  #categories{
-    font-size: 30px;
-  }
- /*Carrito de compra*/
-  #cart{
-    width: 100%;
-    height: 23%;
-    margin-top:21%;
-    font-size: 50px;
-    
-  }
-  
-  .navbar-brand{
-    width: 100%;
-  
-  }
-  .navbar-brand img{
-    width: 40%;
-    
-  }
 
-  .navbar-toggler-icon{
-    width: 100%;
-  }
-  .navbar-toggler{
-    height: 80px;
-    width: 100%;
-    text-align: center;
-    
-  }
+
+
+
+
+
+
   .informacion{
-    height: 300px;
+    height: 100%;
   }
-  
-  .informacion h3{
-    font-size: 22px;
-    padding-top: 20px;
+
+  .contacto p{
+    text-align: left;
+    margin: 10px;
   }
-  .informacion p{
-    font-size: 15px;
-    text-align: center;
-    padding-top: 10px;
+  .contacto h3{
+    text-align: left;
+    margin: 10px;
+  }
+  .contacto svg{
+   margin: 10px;
+    float: left;
   }
 }
-
 
