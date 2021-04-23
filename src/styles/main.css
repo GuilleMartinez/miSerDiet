@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar-collapse a{
+  text-decoration: none;
+  color: #F0A54A;
+}
 
 .buscador-responsive{
   display: none;
@@ -44,7 +48,7 @@
 .todoslosproductos a{
   text-transform: none;
   text-decoration: none;
-  color: #809589;
+  color: #E0D7D7;
 }
 
 .todoslosproductos a:hover{
@@ -55,7 +59,7 @@
 .todoslosproductos{
   font-family: roboto;
   font-size: 16px;
-  border: 1px solid #809589;
+  border: 1px solid #E0D7D7;
 }
 
 .hover-dropdown {
@@ -64,7 +68,7 @@
 
 #categories-list {
   display: none;
-  
+
 }
 
 .hover-dropdown:hover #categories-list {
@@ -74,15 +78,15 @@
   display: block;
   width: max-content;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #809589;
   list-style: none;
   text-align: left;
-  color: #809589;
+  color: #E0D7D7;
 }
 /*Barra desplegable menu*/
 summary{
   padding: 25px;
-  border-bottom: 1px solid #809589;
+  border-bottom: 1px solid #E0D7D7;
 }
 
 
@@ -95,11 +99,11 @@ summary{
   width: 100%;
   padding: 2.5px;
   text-align: center;
-  color:#809589;
+  color:#E0D7D7;
 }
 
 .filter-input:checked + .filter-label {
-  background-color:#f8f9fa;
+  background-color:#809589;
 }
 
 #categories:target {
@@ -239,13 +243,17 @@ nav img{
   text-align: center;
 }
 
-.contacto h3{
-  font-size: 20px;
-  
+.contacto h2{
+  font-size: 16px;
+  font-family: roboto;
+  text-align: left;
 }
 
 .contacto p{
   text-align: center;
+  font-size: 14px;
+  font-family: roboto;
+ 
 }
 
 /*Volver*/
@@ -277,13 +285,18 @@ nav img{
   
 }
 .informacion h3{
+  font-family: noto serif;
   font-size: 20px;
   padding: 20px;
 }
 .informacion p{
   font-size: 14px;
   text-align: center;
+  text-decoration: none;
+  color: white;
 }
+
+
 /*texto sobre mi ser diet*/
 aside p{
   color: #42596B;
@@ -300,7 +313,7 @@ aside p{
 
 /*Titulo de sobre mi ser diet*/
 .titulodesecciones{
-  font-family:fantasy;
+  font-family:noto serif;
   text-align: center;
   font-size: 45px;
   margin: 20px;
@@ -319,7 +332,17 @@ aside p{
   color: #42596B;
   font-family: roboto;
   padding: 10px;
+  
 }
+.contactoyenvios a{
+  text-decoration: none;
+  color: #809589;
+}
+.contactoyenvios a:hover{
+  text-decoration: none;
+  color: #809589;
+}
+
 
 /*imagenes de venta y contactos*/
 .imagenes-ventaycontacto{
@@ -335,14 +358,14 @@ aside p{
 .recetas-index{
   display: grid;
   grid-template-columns: repeat(3, 120px);
-  grid-gap: 5px;
+  grid-gap: 10px;
   margin: 0;
   justify-content: center;
   
 }
 .recetas-index img{
-  width: 50%;
-  height: 65%;
+  width: 200px;
+  height: 170px;
   object-fit: cover;
 }
 .recetas{
@@ -352,6 +375,7 @@ aside p{
   padding: 30px;
   margin: 20px;
   grid-gap: 30px;
+  
 }
 
 .recetas img{
@@ -388,9 +412,10 @@ aside p{
   text-align: center;
   color:#42596B;
   font-size: 22px;
+  font-family: roboto;
 }
 .productos-del-inicio img{
-  width: 10px;
+  width: 100px;
   height: 100px;
   object-fit: cover;
 }
@@ -398,13 +423,18 @@ aside p{
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
   
-  
-  .nav-item a{
-    text-decoration: none;
-    color: black;
-    width: 100%;
+  .navbar-collapse a{
+    text-align: left;
+    border-bottom:1px solid #809589;
   }
-  
+  .navbar-collapse{
+    text-align: left;
+    margin-top: 25%;
+    margin: 10%;
+  }
+ 
+ 
+ 
   .buscador-responsive{
     display: block;
   }
@@ -417,31 +447,41 @@ aside p{
   
   
   .navbar-brand img{
+    width: 20%;
     position: absolute;
-    left: 44%;
-    right: 38.45%;
-    top: 0.09%;
-    bottom: 99.16%;
-  }
-  
-  .navbar-toggler-icon{
-    position:absolute;
-    left: 0;
+    left: 40%;
     top: 0;
   }
+  
   
   .navbar-toggler{
     position: absolute;
     left: 20px;
-    top: 30px;
-    
-  }
-  .navbar-nav{
-    background-color:#809589;
-    margin-top :16%;
+    top: 10px;
   }
   
-  
+  .hover-dropdown:hover #categories-list {
+    position: absolute;
+    top: 100%;
+    z-index: 1024;
+    display: block;
+    width: max-content;
+    padding: 20px;
+    background-color: white;
+    list-style: none;
+    text-align: left;
+    color: #809589;
+  }
+ .productos-del-inicio{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+ }
+
+ .productos-del-inicio img{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+ }
   .informacion{
     height: 100%;
   }
@@ -470,6 +510,7 @@ aside p{
     margin: 20px;
     grid-gap: 30px;
   }
+  
   
 }
 
