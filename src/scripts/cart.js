@@ -1,10 +1,11 @@
 class Item {
-	constructor(id, title, price, amount) {
+	constructor(id, title, price, amount, img) {
 		this._id = id;
 		this._title = title;
 		this._amount = amount;
 		this._price = Number(price);
 		this._count = 1;
+		this._img = img;
 	}
 
 	get id() {
@@ -20,12 +21,16 @@ class Item {
 	}
 
 	get amount() {
-		const amountString = this._amount ? `x ${this._amount}` : ""
-		return `${this.count} ${amountString}`;
+
+		return this._amount;
 	}
 
 	get count() {
 		return this._count;
+	}
+
+	get img() {
+		return this._img;
 	}
 
 	set count(newCount) {
@@ -35,10 +40,20 @@ class Item {
 
 	render() {
 		return `<li class="cart-item" id="${this.id}"> 
-			<p class="item-title">Producto: ${this.title}</p> 
-			<p class="item-count">Cantidad: ${this.amount}</p> 
+			<figure> 
+				<img class="cart-img" src="${this.img}" alt="${this.title}"/>
+			</figure>
+
+			<p class="item-title">${this.title} x ${this.amount}</p>
+
+			<div> 
+				<button class="update-btn" value="-1">-</button>
+				<input  class="item-count" readonly type="number" value="${this.count}"/>
+				<button class="update-btn" value="1">+</button>
+			<div>
+
 			<p class="item-price">Subtotal: $${this.price}</p>
-			<button class="delete-item-btn" title="remove from cart", value="${this.id}">delete product</button>
+			<button class="delete-item-btn" title="remove from cart", value="${this.id}">🗑</button>
 		</li>`;
 	}
 
@@ -50,6 +65,7 @@ class Cart {
 		this._cart = [];
 		this._htmlCart = document.querySelector("#shopping-cart");
 		this._htmlTotal = document.querySelector("#total");
+		this._htmlPopup = document.querySelector("#popup");
 	}
 
 	get cart() {
@@ -68,6 +84,7 @@ class Cart {
 		}
 
 		this.updateHtmlTotal();
+		this.showPopup(item.id);
 	}
 
 	deleteItem(id) {
@@ -76,11 +93,15 @@ class Cart {
 		this.updateHtmlTotal();
 	}
 
-	updateItem(id) {
+	updateItem(id, value = 1) {
 		const index = this._cart.findIndex(item => item.id == id);
-		this.cart[index].count++;
-		this.updateHtmlItem(this.cart[index]);
-		this.updateHtmlTotal();
+		this.cart[index].count += value;
+
+		if (this.cart[index].count > 0) {
+			this.updateHtmlItem(this.cart[index]);
+			this.updateHtmlTotal();
+		}
+
 	}
 
 	get total() {
@@ -99,7 +120,7 @@ class Cart {
 	}
 
 	updateHtmlItem(item) {
-		this._htmlCart.querySelector(`#${item.id} .item-count`).textContent = `Cantidad: ${item.amount}`;
+		this._htmlCart.querySelector(`#${item.id} .item-count`).value = item.count;
 		this._htmlCart.querySelector(`#${item.id} .item-price`).textContent = `Subtotal: $${item.price}`
 	}
 
@@ -109,6 +130,33 @@ class Cart {
 
 	hasItems() {
 		return this.cart.length;
+	}
+
+	showPopup(productID) {
+		const item = this.cart.find(item => item.id == productID);
+		const title = this._htmlPopup.querySelector("#popup-title");
+		const img = this._htmlPopup.querySelector("#popup-img");
+		const info = this._htmlPopup.querySelector("#popup-info");
+		const price = this._htmlPopup.querySelector("#popup-price");
+		const count = this._htmlPopup.querySelector("#popup-count");
+
+		const resetPopup = () => {
+			this._htmlPopup.className = "invisible opacity-0";
+		}
+
+		title.textContent = item.title;
+
+		img.src = item.img;
+		img.alt = item.title;
+
+		info.textContent = item.amount ? `${item.count} x ${item.amount}` : "";
+		count.textContent = `Total (${item.count} ${item.count > 1 ? 'productos' : 'producto'}): `;
+		price.textContent = `$ ${item.price}`;
+
+		this._htmlPopup.className = "visible opacity-5";
+
+		setTimeout(resetPopup, 2000);
+
 	}
 
 }

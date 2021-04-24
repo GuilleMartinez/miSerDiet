@@ -7,8 +7,9 @@ const LINKS = {
 	catalog: "src/json/catalogo.json",
 }
 
-var app;
-var cart;
+let app;
+let cart;
+const itemsCount = 1;
 
 /* REQUEST AND PREPARE DATA */
 async function getData(url) {
@@ -39,7 +40,7 @@ function createApp() {
 	/* RENDER ELEMENTS */
 	app.renderCategories();
 	app.renderSuggestions();
-	app.renderFrontCatalog();
+	app.renderFrontCatalog(itemsCount);
 
 	/* SET UP EVENTS */
 	app.categoryContainer.oninput = filterByInput;
@@ -59,11 +60,12 @@ function filterByInput() {
 
 	if (input) {
 		const products = app.filterCatalog(app.filterByCategory(input));
+		app.clearHTML();
 		app.renderCatalog(products);
 		app.filtered = true;
 
 	} else if (!input && app.filtered) {
-		app.renderFrontCatalog();
+		app.renderFrontCatalog(itemsCount);
 		app.filtered = false;
 	}
 
@@ -77,11 +79,12 @@ function filterBySearch(event) {
 
 	if (value && product) {
 		const products = app.filterCatalog(product);
+		app.clearHTML();
 		app.renderCatalog(products);
 		app.filtered = true;
 
 	} else if (!value && app.filtered) {
-		app.renderFrontCatalog();
+		app.renderFrontCatalog(itemsCount);
 		app.filtered = false;
 	}
 
@@ -98,11 +101,17 @@ function setClickEvent(event) {
 				console.log("Agregar producto");
 				insertProduct(target.value);
 				break;
+
 			case "delete-item-btn":
 				cart.deleteItem(target.value);
 				break;
+
 			case "pay-btn":
 				setPayment();
+				break;
+
+			case "update-btn":
+				updateEvent(target);
 				break;
 		}
 	}
@@ -110,8 +119,8 @@ function setClickEvent(event) {
 
 	function insertProduct(itemID) {
 		const { product_id, amount, price } = app.findItem(itemID);
-		const { name } = app.findProduct(product_id);
-		cart.addItem(new Item(itemID, name, price, amount));
+		const { name, img_url} = app.findProduct(product_id);
+		cart.addItem(new Item(itemID, name, price, amount, img_url));
 	}
 
 }
@@ -119,6 +128,13 @@ function setClickEvent(event) {
 function closeDetailsEvent() {
 	const details = [...document.querySelectorAll(".hover-dropdown details[open]")];
 	details.map(tag => tag.open = false);
+}
+
+
+function updateEvent(target) {
+	const productID = target.closest("li").id;
+	const newCount = Number(target.value);
+	cart.updateItem(productID, newCount);
 }
 
 /* SEND MESSAGE */

@@ -23,220 +23,206 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<!--Menú-->	
+					<!--Menú-->
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
 						<a class="navbar-brand" href="#"><img src="src/img/logo.png" alt="logo" width="100%"></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarNavDropdown">
-							<ul class="navbar-nav">
-								<li class="nav-item active">
-									<a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Inicio<span
+									class="sr-only">(current)</span></a>
 								</li>
-								<!--Aqui comienza el menu desplegable-->
-								<li class="nav-item dropdown hover-dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-									<ul id="categories-list">
-										<li>
-											<input checked type="radio" id="default" value="" class="filter-input" type="radio"
-											name="filter">
-											<label for="default" class="filter-label d-block w-100 todoslosproductos">
-												<a href="productos.html"> Todos los productos</a></label>
-											</li>
-										</ul>
-									</li>
-									
-									<!--Aqui termina menu desplegable-->
-									<li class="nav-item">
-										<a class="nav-link" href="sobremiserdiet.html">Sobre Mi Ser Diet</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link " href="venta.html">Venta mayorista</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="recetas.html">Recetas</a>
-									</li>
-									<li class="nav-item"> 
-										<a class="nav-link" href="contacto.html">Contacto y envíos</a>
-									</li>
-								</ul>
-							</div>
-							<a class="nav-item nav-link" href="#cart" ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-cart-fill " viewBox="0 0 16 16" style="color: #F0A54A;">
-								<path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-							</svg></a>
-						</nav>
-					</div>
+								
+								<!--Se quita dropdown-->
+								<li class="nav-item">
+									<a class="nav-link" href="productos.html">Productos</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="sobremiserdiet.html">Sobre Mi Ser Diet</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="venta.html">Venta mayorista</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="recetas.html">Recetas</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="contacto.html">Contacto y envíos</a>
+								</li>
+								
+							</ul>
+						</div>
+						
+					</nav>
 				</div>
 			</div>
-			<!--Fin de menú-->	
-		</header>
+		</div>
+		<!--Fin de menú-->
+	</header>
+	
+	<!--Buscador responsive-->
+	<div class="buscador-responsive container">
+		<div class="row">
+			<div class="col-md-12">
+				<section id="search-box">
+					<form class="form-inline my-2 my-lg-0" method="POST">
+						<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
+						id="search-product">
+						<datalist id="suggestions"></datalist>
+					</form>
+				</section>
+				<!--termina la section de buscador-->
+			</div>
+		</div>
+	</div>
+	
+	<!--carousel-->
+	<div class="container-fluid">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="src/img/carousel/granola_carousel.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="src/img/carousel/granola2_carousel.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="src/img/carousel/pan-integral_carousel.png" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--Fin del carousel-->
 		
-		<!--Buscador responsive-->
-		<div class="buscador-responsive container">
+		<!--Inofrmacion debajo de carousel-->
+		<div class="container-fluid">
+			<div class="informacion row">
+				<div class="col-xs-12 col-md-4">
+					<h3>Envío a todo el país</h3>
+					<p>Envíos sin cargo a Ramos Mejía y alrededores.</p>
+					<a href="contacto.html"><p><b>Conocé más sobre envíos.</b></p></a>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<h3>Prepará tu pedido. Nosotras te lo llevamos a tu puerta</h3>
+					<p>Elegí tus productos preferidos.</p>
+					
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h3>Pagá como vos quieras.</h3>
+					<p>Crédito, débito, efectivo o transferencia.</p>
+					<a href="contacto.html"><p><b>Conocé más sobre medios de pago.</b></p></a>
+				</div>
+			</div>
+		</div>
+		<!--Fin de informacion-->
+		
+		<!--Productos 1 de cada 1-->
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
-					<section id="search-box">
-						<form class="form-inline my-2 my-lg-0" method="POST">
-							<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
-							id="search-product">
-							<datalist id="suggestions"></datalist>
-						</form>
-					</section>
-					<!--termina la section de buscador-->
+				<div class="col-md-12  productos-del-inicio">
+					<div>
+						<img class="d-block w-100" src="src/img/productos-inicio/hecho-en-casa.png" alt="hecho en casa">
+						<p>Hecho en casa</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/alacena.png" alt="alacena">
+						<p>Alacena</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/bebida.jpg" alt="bebida">
+						<p>Bebidas</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/snack.jpg" alt="snack">
+						<p>Snacks</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/lacteos.jpg" alt="lacteos">
+						<p>Lácteos</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/reposteria.jpg" alt="reposteria">
+						<p>Repostería</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					<div>
+						<img class="d-block w-100"  src="src/img/productos-inicio/higiene.jpg" alt="higiene">
+						<p>Farmacia e Higiene</p>
+						<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 		
-		<!--carousel-->
-		<div class="container-fluid">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block w-100" src="src/img/carousel/granola_carousel.jpg" alt="First slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="src/img/carousel/granola2_carousel.png" alt="Second slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="src/img/carousel/pan-integral_carousel.png" alt="Third slide">
-					</div>
-				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			<!--Fin del carousel-->
-			
-			<!--Inofrmacion debajo de carousel-->
-			<div class="container-fluid">
-				<div class="informacion row">
-					<div class="col-xs-12 col-md-4">
-						<h3>Envío a todo el país</h3>
-						<p>Envíos sin cargo a Ramos Mejía y alrededores.</p>
-						<a href="contacto.html"><p><b>Conocé más sobre envíos.</b></p></a>
-					</div>
+		<!--Section de recetas-->
+		<h2 style="padding: 50px; margin-bottom:0; font-family: 34px; font-family: serif; text-align: center; color: #42596B; background-color: #E0D7D7;">Tips y Recetas</h2>
+		<section class="container-fluid" style="background-color: #E0D7D7; margin-bottom: 40px; padding: 30px;">
+			<div class="row">
+				<div class="recetas-index col-md-12">
 					
-					<div class="col-xs-12 col-md-4">
-						<h3>Prepará tu pedido. Nosotras te lo llevamos a tu puerta</h3>
-						<p>Elegí tus productos preferidos.</p>
+					<div>
+						<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/cookies-zanahoria.jpg" alt=""></a>
 						
 					</div>
-					<div class="col-xs-12 col-md-4">
-						<h3>Pagá como vos quieras.</h3>
-						<p>Crédito, débito, efectivo o transferencia.</p>
-						<a href="contacto.html"><p><b>Conocé más sobre medios de pago.</b></p></a>
+					<div>
+						<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/tarta-de-calabaza.jpg" alt=""></a>
+						
 					</div>
-				</div>
-			</div>
-			<!--Fin de informacion-->
-			
-			<!--Productos 1 de cada 1-->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12  productos-del-inicio">
-						<div>
-							<img class="d-block w-100" src="src/img/productos-inicio/hecho-en-casa.png" alt="hecho en casa">
-							<p>Hecho en casa</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/alacena.png" alt="alacena">
-							<p>Alacena</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/bebida.jpg" alt="bebida">
-							<p>Bebidas</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/snack.jpg" alt="snack">
-							<p>Snacks</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/lacteos.jpg" alt="lacteos">
-							<p>Lácteos</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/reposteria.jpg" alt="reposteria">
-							<p>Repostería</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
-						<div>
-							<img class="d-block w-100"  src="src/img/productos-inicio/higiene.jpg" alt="higiene">
-							<p>Farmacia e Higiene</p>
-							<a href="productos.html"><button type="button" class="btn btn-light text-white" style="background-color: #F0A54A;">Ver</button></a>
-						</div>
+					<div>
+						<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/carrot-cake.jpg" alt=""></a>
+						
+					</div>
+					<div>
+						<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/pan-dulce.jpg" alt=""></a>
+						
+					</div>
+					<div>
+						<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/budin-integral-zanahoria.jpg" alt=""></a>
+						
+					</div>
+					<div>
+						<a href="recetas.html">	<img class="d-block w-100" src="src/img/recetas/ensalada.png" alt=""></a>
 						
 					</div>
 				</div>
 			</div>
-			
-			<!--Section de recetas-->
-			<h2 style="padding: 50px; margin-bottom:0; font-family: 34px; font-family: serif; text-align: center; color: #42596B; background-color: #E0D7D7;">Tips y Recetas</h2>
-			<section class="container-fluid" style="background-color: #E0D7D7; margin-bottom: 40px; padding: 30px;">
-				<div class="row">
-					<div class="recetas-index col-md-12">
-						
-						<div>
-							<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/cookies-zanahoria.jpg" alt=""></a>
-							
-						</div>
-						<div>
-							<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/tarta-de-calabaza.jpg" alt=""></a>
-							
-						</div>
-						<div>
-							<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/carrot-cake.jpg" alt=""></a>
-							
-						</div>
-						<div>
-							<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/pan-dulce.jpg" alt=""></a>
-							
-						</div>
-						<div>
-							<a href="recetas.html"><img class="d-block w-100" src="src/img/recetas/budin-integral-zanahoria.jpg" alt=""></a>
-							
-						</div>
-						<div>
-							<a href="recetas.html">	<img class="d-block w-100" src="src/img/recetas/ensalada.png" alt=""></a>
-							
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--fin de recetas en el inicio-->
-			
-			
-			<!--Card de carrito-->
-			<section id="cart">
-				<button type="button" class="btn btn-dark" style="background-color: #F0A54A;"><a href="#">Cerrar</a></button>
-				<h2 class="title">Cartera</h2>
-				<ul id="shopping-cart" role="list"></ul>
-				<div class="cart-info">
-					<p id="total">Total a pagar: $0</p>
-					<button class="pay-btn btn btn-dark btn-lg" style="background-color:#F0A54A;">COMPRAR</button>
-				</div>
-			</section>
-			<!--fin de carrito-->
-		</main>
+		</section>
+		<!--fin de recetas en el inicio-->
+		
+		
+		
 		
 		<!--Contacto-->
 		<footer class="contacto">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-4 ">
 						<h2><b>Mi ser diet</b></h2>

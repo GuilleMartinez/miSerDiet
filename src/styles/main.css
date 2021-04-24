@@ -3,10 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-.navbar-collapse a{
-  text-decoration: none;
-  color: #F0A54A;
-}
 
 .buscador-responsive{
   display: none;
@@ -29,11 +25,12 @@
   position: relative;
   margin-bottom: 30px;
   width: 400px;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .product-title {
@@ -45,21 +42,20 @@
   height: auto;  
 }
 
-.todoslosproductos a{
-  text-transform: none;
-  text-decoration: none;
-  color: #E0D7D7;
+.tac-logo {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
 }
 
-.todoslosproductos a:hover{
-  text-decoration: none;
-  color: #809589;
-}
-
-.todoslosproductos{
-  font-family: roboto;
-  font-size: 16px;
-  border: 1px solid #E0D7D7;
+.tac-logo img {
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
 }
 
 .hover-dropdown {
@@ -68,7 +64,7 @@
 
 #categories-list {
   display: none;
-
+  
 }
 
 .hover-dropdown:hover #categories-list {
@@ -81,12 +77,32 @@
   background-color: #809589;
   list-style: none;
   text-align: left;
-  color: #E0D7D7;
+  color: white;
 }
+
+
+/* POPUP */
+#popup {
+  width: max-content;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 2048;
+  background-color: white;
+  box-shadow: 0 0 10px #42596B;
+}
+
+#popup-img {
+  width: 20%;
+  height: auto;
+}
+
+
 /*Barra desplegable menu*/
 summary{
   padding: 25px;
-  border-bottom: 1px solid #E0D7D7;
+  border-bottom: 1px solid #809589;
 }
 
 
@@ -99,11 +115,13 @@ summary{
   width: 100%;
   padding: 2.5px;
   text-align: center;
-  color:#E0D7D7;
+  color:#809589;
 }
 
 .filter-input:checked + .filter-label {
   background-color:#809589;
+  color: white;
+  border: 1px solid white;
 }
 
 #categories:target {
@@ -111,10 +129,15 @@ summary{
   
 }
 
+.todoslosproductos a{
+  text-decoration: none;
+  color: #f8f9fa;
+}
 .title {
   text-align: center;
   font-family: roboto;
   color: #42596B;
+  font-size: 22px;
 }
 
 #products {
@@ -130,6 +153,7 @@ summary{
   background-position: center;
   border: none;
   background-color:transparent;
+  
 }
 
 .product-container {
@@ -159,34 +183,94 @@ summary{
   padding: 0 5px;
 }
 
+.pay-btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-color: #343a40;
+  background-color:#F0A54A;
+  color: white;
+}
+
 #shopping-cart {
   width: max-content;
   margin: 0 auto;
   list-style: none;
 }
 
-.cart-info {
-  text-align: center;
-}
 
-#cart {
-  width: 340px;
-  position: fixed;
-  top: 10%;
-  right: 0;
-  visibility: hidden;
-  opacity: 0;
-  background-color: white;
-}
+
 #cart a{
   text-decoration: none;
   color: white;
+  
 }
+
+#cart{
+  display: flex;
+  position: absolute;
+  top: -1.3%;
+  right: 2%;
+  width: 400px;
+  height: 550px;
+  border: 1px solid black;
+  background: white;
+}
+#cart h2{
+  font-family: roboto;
+  font-size: 22px;
+  text-align: center;
+  color: #f8f9fa;
+  position: absolute;
+
+}
+
+#cart figure{
+  margin-top:100% ;
+  width: 60%;
+  padding:40px;
+  
+}
+
 
 #cart:target {
   visibility: visible;
   opacity: 1;
   transition: opacity 0.5s ease-in;
+}
+
+.cart-info{
+  border-top: 2px solid #F0A54A;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 30%;
+  
+}
+
+#cart button svg{ 
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+
+.item-title{
+  text-align: center;
+  font-size: 16px;
+  color: #42596B;
+  font-family: roboto;
+}
+
+.subtotal{
+  display: block;
 }
 
 header .buttons, #search-box{
@@ -244,16 +328,20 @@ nav img{
 }
 
 .contacto h2{
-  font-size: 16px;
+  font-size: 20px;
+  text-align: center;
   font-family: roboto;
-  text-align: left;
+  font-size: 14px;
+  color: #FFFFFF;
+  
 }
 
 .contacto p{
   text-align: center;
-  font-size: 14px;
   font-family: roboto;
- 
+  font-size: 14px;
+  color: #FFFFFF;
+
 }
 
 /*Volver*/
@@ -285,18 +373,22 @@ nav img{
   
 }
 .informacion h3{
-  font-family: noto serif;
   font-size: 20px;
   padding: 20px;
 }
 .informacion p{
   font-size: 14px;
   text-align: center;
-  text-decoration: none;
-  color: white;
 }
 
-
+.informacion a{
+  text-decoration: none;
+  color: #f8f9fa;
+}
+.informacion a:hover{
+  text-decoration: none;
+  color: #E0D7D7;
+}
 /*texto sobre mi ser diet*/
 aside p{
   color: #42596B;
@@ -321,6 +413,15 @@ aside p{
   color: #42596B;
 }
 
+.contactoyenvios a{
+  text-decoration: none;
+  color: #809589;
+}
+
+.contactoyenvios a:hover{
+  text-decoration: none;
+  color: #67776e;
+}
 
 .contactoyenvios h2{
   color: #809589;
@@ -332,17 +433,7 @@ aside p{
   color: #42596B;
   font-family: roboto;
   padding: 10px;
-  
 }
-.contactoyenvios a{
-  text-decoration: none;
-  color: #809589;
-}
-.contactoyenvios a:hover{
-  text-decoration: none;
-  color: #809589;
-}
-
 
 /*imagenes de venta y contactos*/
 .imagenes-ventaycontacto{
@@ -357,15 +448,15 @@ aside p{
 
 .recetas-index{
   display: grid;
-  grid-template-columns: repeat(3, 120px);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 20%);
+  grid-gap: 5px;
   margin: 0;
   justify-content: center;
   
 }
 .recetas-index img{
-  width: 200px;
-  height: 170px;
+  width: 50%;
+  height: 65%;
   object-fit: cover;
 }
 .recetas{
@@ -375,7 +466,6 @@ aside p{
   padding: 30px;
   margin: 20px;
   grid-gap: 30px;
-  
 }
 
 .recetas img{
@@ -405,112 +495,95 @@ aside p{
 .productos-del-inicio{
   display: grid;
   grid-template-columns: repeat(3, 18%);
-  padding: 30px;
-  margin: 20px;
+  padding: 50px;
+  margin: 50px;
   grid-gap: 30px;
   justify-content: center;
   text-align: center;
   color:#42596B;
   font-size: 22px;
-  font-family: roboto;
 }
 .productos-del-inicio img{
-  width: 100px;
+  width: 10px;
   height: 100px;
   object-fit: cover;
 }
 
 /*Responsive- Smartphone*/
 @media screen and (min-device-width : 320px) and (max-device-width : 767px){
-  
-  .navbar-collapse a{
-    text-align: left;
-    border-bottom:1px solid #809589;
-  }
-  .navbar-collapse{
-    text-align: left;
-    margin-top: 25%;
-    margin: 10%;
-  }
- 
- 
- 
-  .buscador-responsive{
-    display: block;
-  }
-  
-  #search-box{
-    width: 200px;
-    display: flex;
-    margin: auto;
-  }
-  
-  
-  .navbar-brand img{
-    width: 20%;
-    position: absolute;
-    left: 40%;
-    top: 0;
-  }
-  
-  
-  .navbar-toggler{
-    position: absolute;
-    left: 20px;
-    top: 10px;
-  }
-  
-  .hover-dropdown:hover #categories-list {
-    position: absolute;
-    top: 100%;
-    z-index: 1024;
-    display: block;
-    width: max-content;
-    padding: 20px;
-    background-color: white;
-    list-style: none;
-    text-align: left;
-    color: #809589;
-  }
- .productos-del-inicio{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
- }
 
- .productos-del-inicio img{
-   width: 100px;
-   height: 100px;
-   object-fit: cover;
- }
+
+  
+  
+  
+  .productos-del-inicio{
+    display: grid;
+    grid-template-columns: repeat(3, 50%);
+    grid-gap: 5px;
+    margin: 60px;
+    padding:20px;
+    justify-content: center;
+  }
+  .productos-del-inicio img{
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+  }
+  
+  
+  .recetas-index{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 30px;
+    margin: 10px;
+    grid-gap: 10px;
+  }
+  
+  .recetas-index img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+  }
+  
+  
+  
+  
   .informacion{
     height: 100%;
   }
   
+  .contacto h2{
+    text-align: left;
+  }
   .contacto p{
     text-align: left;
-    margin: 10px;
   }
-  .contacto h3{
-    text-align: left;
-    margin: 10px;
-  }
+
   .contacto svg{
-    margin: 10px;
     float: left;
+    margin: 5px;
   }
+
   .imagenes-ventaycontacto{
     width: 100%;
   }
   .recetas{
-    width: 100%;
-    height: 100%;
+  
     display: grid;
     grid-template-columns: repeat(2, 48%);
-    padding: 30px;
+    padding: 10px;
     margin: 20px;
-    grid-gap: 30px;
+    grid-gap: 10px;
+    
   }
   
+  .recetas img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+  }
   
 }
 

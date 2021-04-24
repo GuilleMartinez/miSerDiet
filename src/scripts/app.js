@@ -8,7 +8,7 @@ class App {
 		this._htmlCategories = document.querySelector("#categories-list");
 		this._catalogTitle = document.querySelector("#catalog-title");
 		this._htmlSearchList = document.querySelector("#suggestions");
-		this._htmlSearchBox = document.querySelector('#search-box [type="search"]');
+		this._htmlSearchBox = document.querySelector('#search-input');
 		this.filtered = false;
 	}
 
@@ -52,8 +52,9 @@ class App {
 		return this._catalog.find(item => item.id == itemID);
 	}
 
-	filterByCategory(categoryID) {
-		return this.products.filter(product => product.category_id == categoryID);
+	filterByCategory(categoryID, count) {
+		const query = this.products.filter(product => product.category_id == categoryID);
+		return count ? query.slice(0, count) : query;
 	}
 
 	filterCatalog(products, count) {
@@ -71,9 +72,14 @@ class App {
 			const amount = item.amount ? `${item.amount} x $${item.price}` : `$${item.price}`;
 			return `
 			<div class="product">
-				${product.tac == "FALSE" ? '<img class="tac-logo" src="./src/img/iconos/sin_tacc.png" alt="Producto sin tac"/>' : ""}
-				<img class="product-img" src="${product.img_url}" alt="${product.name}"/>
-				<p class="product-title">${product.name}</p>
+				${product.tac == "FALSE" 
+					? '<figure class="tac-logo"> <img src="./src/img/iconos/sin_tacc.png" alt="Producto sin tac"/> </figure>' 
+					: ""
+				}						
+				<figure> 
+					<img class="product-img" src="${product.img_url}" alt="${product.name}"/>
+					<figcaption class="product-title">${product.name}</figcaption> 
+				</figure>
 				<p class="product-price">${amount}</p>
 				<button class="add-cart-btn" title="Add to cart" value="${item.id}">+</button>
 			</div>`
@@ -111,26 +117,41 @@ class App {
 
 	renderCatalog(list) {
 		const catalog = this.createCatalog(list);
-		this._htmlCatalog.innerHTML = "";
-		this._htmlCatalog.classList.add("catalog-grid");
-		
+		this.clearHTML();
 		catalog.map(div => this._htmlCatalog.innerHTML += div);
 	}
 
-	renderFrontCatalog() {
-		this._htmlCatalog.innerHTML = "";
-		this._htmlCatalog.classList.remove("catalog-grid");
+	renderFrontCatalog(itemsCount) {
+
+		this.clearHTML();
+		this._htmlCatalog.className = "";
+
 		this.categories.map(group => {
+
+			const items = [];
+			
+			group.categories.map(category => {
+				const products = this.filterByCategory(category.id, itemsCount);
+				const catalogFiltered = this.filterCatalog(products, itemsCount);
+				const catalogRendered = this.createCatalog(catalogFiltered);
+				items.push(catalogRendered)
+			});
+
 			this._htmlCatalog.innerHTML += `
-			<section id="${group.name}">
-				<h2 class="title">${group.name}</h2>
-				<div class="product-container"> 
-					${this.createCatalog(this.filterCatalog(this.filterByCategory(group.categories[0].id), 3)).join("\n")}
-				</div>
-			</section>
-		`}
-		)
+				<section id="${group.name}" class="d-flex flex-column">
+					<h2 class="title mb-3"> ${group.name} </h2>
+					<div class="catalog-grid"> 
+						${items.join("")}
+					</div>
+				</section>
+			`
+		})
 
 	}
 
+
+	clearHTML() {
+		this._htmlCatalog.innerHTML = "";
+		this._htmlCatalog.classList.add("catalog-grid");
+	}
 }
