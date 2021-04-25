@@ -310,7 +310,7 @@ nav img{
   padding: 10px;
   margin: 0;
   font-size: 15px;
-  
+  font-family: noto serif;
 }
 
 
@@ -327,21 +327,28 @@ nav img{
 }
 
 .contacto h2{
-  font-size: 20px;
+  
   text-align: center;
   font-family: roboto;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   
 }
 
 .contacto p{
-  text-align: center;
+  text-align: left;
   font-family: roboto;
   font-size: 14px;
   color: #FFFFFF;
-  
 }
+
+
+.contacto-p{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 
 /*Volver*/
 
@@ -402,6 +409,8 @@ aside p{
   padding: 20px;
 }
 
+
+
 /*Titulo de sobre mi ser diet*/
 .titulodesecciones{
   font-family:noto serif;
@@ -426,20 +435,17 @@ aside p{
   color: #809589;
   padding: 10px;
   font-family: serif;
+  margin: 0;
 }
 
 .contactoyenvios p{
   color: #42596B;
   font-family: roboto;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
-/*imagenes de venta y contactos*/
-.imagenes-ventaycontacto{
-  padding: 30px;
-  margin: 30px;
-  background-color:#E0D7D7;
-}
+
 
 .imagenes-ventaycontacto{
   width: 100%;
@@ -485,6 +491,7 @@ aside p{
   color: #42596B;
   font-size: 22px ;
   font-family: roboto;
+  margin: 25px;
 }
 
 .recetas button{
