@@ -2,18 +2,18 @@
 <html>
 
 <head>
-	
+
 	<title>Mi Ser Diet</title>
-	
+
 	<!--Responsive-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
+
 	<!--Link de Main.Css-->
 	<link rel="stylesheet" href="src/styles/main.css">
-	
+
 	<!--Link Boostrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,29 +21,33 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<!--Menú-->	
+					<!--Menú-->
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
 						<a class="navbar-brand" href="#"><img src="src/img/logo.png" alt="logo" width="100%"></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+							aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarNavDropdown">
 							<ul class="navbar-nav">
 								<li class="nav-item active">
-									<a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="index.html">Inicio<span
+											class="sr-only">(current)</span></a>
 								</li>
 								<!--Aqui comienza el menu desplegable-->
 								<li class="nav-item dropdown hover-dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
 									<ul id="categories-list">
 										<li>
-											<input checked type="radio" id="default" value="" class="filter-input" type="radio"
-											name="filter">
-											<label for="default" class="filter-label d-block w-100 todoslosproductos"><a href="productos.html"> Todos los productos</label></a>
+											<input checked type="radio" id="default" value="" class="filter-input"
+												type="radio" name="filter">
+											<label for="default" class="filter-label">Todos los productos</label>
 										</li>
 									</ul>
 								</li>
-								
+
 								<!--Aqui termina menu desplegable-->
 								<li class="nav-item">
 									<a class="nav-link" href="sobremiserdiet.html">Sobre Mi Ser Diet</a>
@@ -59,16 +63,19 @@
 								</li>
 							</ul>
 						</div>
-						<a class="nav-item nav-link" href="#cart" ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-cart-fill " viewBox="0 0 16 16" style="color: #F0A54A;">
-							<path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-						</svg></a>
+						<a class="nav-item nav-link" href="#cart"><svg xmlns="http://www.w3.org/2000/svg" width="50"
+								height="30" fill="currentColor" class="bi bi-cart-fill " viewBox="0 0 16 16"
+								style="color: #F0A54A;">
+								<path
+									d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+							</svg></a>
 					</nav>
 				</div>
 			</div>
 		</div>
-		<!--Fin de menú-->	
+		<!--Fin de menú-->
 	</header>
-	
+
 	<!--Buscador responsive-->
 	<div class="buscador-responsive container">
 		<div class="row">
@@ -76,7 +83,7 @@
 				<section id="search-box">
 					<form class="form-inline my-2 my-lg-0" method="POST">
 						<input placeholder="Buscar producto" list="suggestions" type="search" name="search-product"
-						id="search-product">
+							id="search-input">
 						<datalist id="suggestions"></datalist>
 					</form>
 				</section>
@@ -84,81 +91,80 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!--POP UP-->
 	<div id="popup" class="visible opacity-5">
 
 		<img id="popup-img" class="d-block mr-3" src="./src/img/tinified/product.svg" alt="Budin Integral De Banana Y Chips De Chocolate">
 
 		<div class="d-flex flex-column">
-			<p class="w-100 mb-2" id="popup-title"></p>
+			<p class="w-100 mb-2" id="popup-title">Budin Integral De Banana Y Chips De Chocolate</p>
 			<p class="w-100 mb-2" id="popup-info"></p>
 			<p class="mb-2"> <b>¡Agregado al carrito!</b> </p>
 
-			<p> <span id="popup-count">Total (1 producto): </span> <span id="popup-price"></span> </p>
+			<p> <span id="popup-count">Total (1 producto): </span> <span id="popup-price">$ 120</span> </p>
 
 			<a class="btn btn-dark" style="background-color:#F0A54A" href="#cart"> VER CARRITO</a>
 		</div>
 
 	</div>
-	
-	
-	
+
+
 	<main id="main-container">
 		<div class="row">
 			<div class="col-md-12">
-				
-				<!--Lista de productos-->
-				<section class="productos" id="products">
-					<h2 id="catalog-title" class="title" style="font-family: serif; font-size: 34px; color: #42596B;">
-						Categorías</h2>
-						<div id="product-list"></div>
-					</section>
-					<!--fin de la lista de productos-->
-					
-					
-					<!--Card de carrito-->
-					<section id="cart">						
-							<h2 style="background-color: #F0A54A; padding: 20px; width: 100%;">Tu pedido<button type="button" class="btn btn-dark" style="background-color: #F0A54A;"><a
-								href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-									<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-								  </svg></button></a></h2>
-							
-							<ul id="shopping-cart" role="list">
-								<li class="cart-item" id="product-M0510">
-									<figure>
-										<img class="cart-img d-block w-100" src="./src/img/tinified/product.svg" 
-										alt="Budin Integral De Banana Y Chips De Chocolate">
-									</figure>
-									
-									<p class="item-title">Budin Integral De Banana Y Chips De Chocolate x undefined</p>
-									
-									<div class="subtotal">
-										<button class="update-btn" value="-1">-</button>
-										<input class="item-count" readonly="" type="number" value="1">
-										<button class="update-btn" value="1">+</button>
-										<div>
-											
-											<p class="item-price">Subtotal: $120</p>
-											<button class="delete-item-btn" title="remove from cart" ,=""value="product-M0510">🗑</button>
-										</div>
-									</div>
-								</li>
-							</ul>
-							<hr>
-							<div class="cart-info">
-								<p id="total">Total a pagar: $0</p>
-								<button class="pay-btn">COMPRAR</button>
+
+			<!--Lista de productos-->
+			<section class="productos" id="products">
+				<h2 id="catalog-title" class="title" style="font-family: serif; font-size: 34px; color: #42596B;">
+					Categorías</h2>
+				<div id="product-list"></div>
+			</section>
+			<!--fin de la lista de productos-->
+
+
+			<!--Card de carrito-->
+			<section id="cart">
+				<button type="button" class="btn btn-dark" style="background-color: #F0A54A;"><a
+						href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+							<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+						  </svg></a></button>
+				<h2 class="title">Tu pedido</h2>
+				<ul id="shopping-cart" role="list">
+					<li class="cart-item" id="product-M0510">
+						<figure>
+							<img class="cart-img" src="/src/img/tinified/product.svg"
+								alt="Budin Integral De Banana Y Chips De Chocolate">
+						</figure>
+
+						<p class="item-title">Budin Integral De Banana Y Chips De Chocolate x undefined</p>
+
+						<div>
+							<button class="update-btn" value="-1">-</button>
+							<input class="item-count" readonly="" type="number" value="1">
+							<button class="update-btn" value="1">+</button>
+							<div>
+
+								<p class="item-price">Subtotal: $120</p>
+								<button class="delete-item-btn" title="remove from cart" ,=""
+									value="product-M0510">🗑</button>
 							</div>
-						</section>
-						<!--fin de carrito-->
-					</div>
+						</div>
+					</li>
+				</ul>
+				<div class="cart-info">
+					<p id="total">Total a pagar: $0</p>
+					<button class="pay-btn">COMPRAR</button>
 				</div>
-				
-			</main>
-			
-<!--Contacto-->
-<footer class="contacto">
+			</section>
+			<!--fin de carrito-->
+		</div>
+		</div>
+
+	</main>
+
+  <!--Contacto-->
+  <footer class="contacto">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
@@ -200,25 +206,25 @@
 </footer>
 <!--Fin de contacto-->
 
-				
-				
-				<!--JavaScript-->
-				<script type="text/javascript" src="src/scripts/request.js"></script>
-				<script type="text/javascript" src="src/scripts/cart.js"></script>
-				<script type="text/javascript" src="src/scripts/app.js"></script>
-				<script type="text/javascript" src="src/scripts/script.js"></script>
-				
-				<!-- Optional JavaScript -->
-				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-				crossorigin="anonymous"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-				integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-				crossorigin="anonymous"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				crossorigin="anonymous"></script>
-			</body>
-			
-			</html>
+
+
+	<!--JavaScript-->
+	<script type="text/javascript" src="src/scripts/request.js"></script>
+	<script type="text/javascript" src="src/scripts/cart.js"></script>
+	<script type="text/javascript" src="src/scripts/app.js"></script>
+	<script type="text/javascript" src="src/scripts/script.js"></script>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
