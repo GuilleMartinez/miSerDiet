@@ -1,5 +1,3 @@
-const number = "0xB14EE0B1";
-
 const LINKS = {
 	categories: "src/json/categorias.json",
 	groups: "src/json/grupos.json",
@@ -146,9 +144,7 @@ function setPayment() {
 			.join("\n\n");
 		const message = `Hola! Me gustaria hacer el siguiente pedido:\n\n${elements}\n\n*Total a pagar: $${cart.total}*`;
 		const url = encodeURI(
-			`https://api.whatsapp.com/send?phone=+54${parseInt(
-				number
-			)}&text=${message}`
+			`https://api.whatsapp.com/send?phone=999-999-9999&text=${message}`
 		);
 		window.open(url, "_blank");
 	}

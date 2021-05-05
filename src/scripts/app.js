@@ -81,7 +81,7 @@ class App {
 					<figcaption class="product-title">${product.name}</figcaption> 
 				</figure>
 				<p class="product-price">${amount}</p>
-				<button class="add-cart-btn" title="Add to cart" value="${item.id}">+</button>
+				<button class="add-cart-btn" title="Add to cart" value="${item.id}"></button>
 			</div>`
 		}
 
@@ -138,7 +138,7 @@ class App {
 			});
 
 			this._htmlCatalog.innerHTML += `
-				<section id="${group.name}" class="d-flex flex-column">
+				<section id="${group.name}" class="d-flex flex-column category-section">
 					<h2 class="title mb-3"> ${group.name} </h2>
 					<div class="catalog-grid"> 
 						${items.join("")}

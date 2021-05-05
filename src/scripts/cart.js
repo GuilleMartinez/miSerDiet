@@ -26,7 +26,7 @@ class Item {
 	}
 
 	get count() {
-		return this._count;
+		return this._count
 	}
 
 	get img() {
@@ -39,21 +39,35 @@ class Item {
 
 
 	render() {
-		return `<li class="cart-item" id="${this.id}"> 
-			<figure> 
-				<img class="cart-img" src="${this.img}" alt="${this.title}"/>
-			</figure>
+		return `<li class="cart-item" id="${this.id}">
 
-			<p class="item-title">${this.title} x ${this.amount}</p>
+			<div class="cart-item-section cart-item-header">
+				<figure> 
+					<img class="cart-img" src="${this.img}" alt="${this.title}"/>
+				</figure>
+			</div>
 
-			<div> 
-				<button class="update-btn" value="-1">-</button>
-				<input  class="item-count" readonly type="number" value="${this.count}"/>
-				<button class="update-btn" value="1">+</button>
-			<div>
+			<div class="cart-item-section cart-item-body">
 
-			<p class="item-price">Subtotal: $${this.price}</p>
-			<button class="delete-item-btn" title="remove from cart", value="${this.id}">🗑</button>
+				<p class="item-title">${this.title} ${this.amount ? ' x ' + this.amount : ""}</p>
+
+				<div class="cart-info"> 
+
+					<div class="cart-inputs-section"> 
+						<button class="update-btn" value="-1">-</button>
+						<input  class="item-count" readonly type="number" value="${this.count}"/>
+						<button class="update-btn" value="1">+</button>
+					</div>
+
+					<div class="cart-price-section">
+						<button class="delete-item-btn" title="remove from cart", value="${this.id}">🗑</button>					
+						<p class="item-price">$${this.price}</p>
+					</div>
+
+				</div>
+
+				
+			</div>
 		</li>`;
 	}
 
@@ -66,6 +80,7 @@ class Cart {
 		this._htmlCart = document.querySelector("#shopping-cart");
 		this._htmlTotal = document.querySelector("#total");
 		this._htmlPopup = document.querySelector("#popup");
+		this.anitamedPopup = false;
 	}
 
 	get cart() {
@@ -113,6 +128,8 @@ class Cart {
 	renderHtmlItem(id) {
 		const item = this.cart.find(item => item.id == id);
 		this._htmlCart.innerHTML += item.render();
+
+		console.log(item.render() );
 	}
 
 	removeHtmlItem(id) {
@@ -142,6 +159,8 @@ class Cart {
 
 		const resetPopup = () => {
 			this._htmlPopup.className = "invisible opacity-0";
+			this.anitamedPopup = false;
+
 		}
 
 		title.textContent = item.title;
@@ -153,9 +172,13 @@ class Cart {
 		count.textContent = `Total (${item.count} ${item.count > 1 ? 'productos' : 'producto'}): `;
 		price.textContent = `$ ${item.price}`;
 
-		this._htmlPopup.className = "visible opacity-5";
-
-		setTimeout(resetPopup, 2000);
+		this._htmlPopup.className = "animate__animated animate__fadeIn";
+		
+		if (!this.anitamedPopup) {
+			this.anitamedPopup = true;
+			setTimeout(resetPopup, 5500);
+		}
+			
 
 	}
 
