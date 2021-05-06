@@ -128,8 +128,6 @@ class Cart {
 	renderHtmlItem(id) {
 		const item = this.cart.find(item => item.id == id);
 		this._htmlCart.innerHTML += item.render();
-
-		console.log(item.render() );
 	}
 
 	removeHtmlItem(id) {

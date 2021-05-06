@@ -73,7 +73,7 @@ function filterBySearch(event) {
 
 	const value = event.target.value;
 	const product = app.findProduct(value) ? [app.findProduct(value)] : false;
-	app.title = "NUESTROS PRODUCTOS";
+	app.title = "Nuestros Productos";
 
 	if (value && product) {
 		const products = app.filterCatalog(product);
@@ -96,7 +96,6 @@ function setClickEvent(event) {
 
 		switch (className) {
 			case "add-cart-btn":
-				console.log("Agregar producto");
 				insertProduct(target.value);
 				break;
 
