@@ -54,7 +54,7 @@ function filterByInput() {
 
 	const input = app.categoryContainer.querySelector(".filter-input:checked").value;
 	const category = app.categoryContainer.querySelector(".filter-input:checked + .filter-label").textContent;
-	app.title = input ? category : "NUESTROS PRODUCTOS";
+	app.title = input ? category : "Nuestros Productos";
 
 	if (input) {
 		const products = app.filterCatalog(app.filterByCategory(input));
